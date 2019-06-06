@@ -6,8 +6,58 @@
   bottom: 0px;
   left: var(--pan-layout-left-left);
   width: var(--pan-layout-left-width);
-  background-color: var(--pan-layout-left-background-color);
   background-image: var(--pan-layout-left-background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   z-index: 10;
+
+  &:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    content: "";
+    background-color: var(--pan-layout-left-background-color);
+  }
+
+  > * {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  &__top {
+    top: 0px;
+    height: var(--pan-layout-left-top-width);
+  }
+
+  &__bottom {
+    top: var(--pan-layout-left-top-width);
+    bottom: 0px;
+  }
+
+  &__avatar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 200px;
+
+    img {
+      display: block;
+      margin: 0px auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
 }
 

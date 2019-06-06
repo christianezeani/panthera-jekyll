@@ -12,6 +12,17 @@ html, body {
   box-sizing: border-box;
 }
 
+a {
+  &, &:link, &:visited {
+    color: rgb(0, 122, 204);
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .pan-layout {
   display: block;
   position: absolute;
