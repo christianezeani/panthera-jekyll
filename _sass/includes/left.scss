@@ -1,0 +1,13 @@
+
+.pan-layout-left {
+  display: block;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: var(--pan-layout-left-left);
+  width: var(--pan-layout-left-width);
+  background-color: var(--pan-layout-left-background-color);
+  background-image: var(--pan-layout-left-background-image);
+  z-index: 10;
+}
+

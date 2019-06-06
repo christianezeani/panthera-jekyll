@@ -1,0 +1,35 @@
+.pan-layout-footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: var(--pan-layout-footer-height);
+  background-color: #FFF;
+  border-top: 1px solid #CCC;
+  font-size: .75rem;
+  z-index: 5;
+
+  & > * {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    padding: 0px 10px;
+
+    > * {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &-left {
+    left: 0px;
+    max-width: 60%;
+  }
+
+  &-right {
+    right: 0px;
+    max-width: 40%;
+  }
+}

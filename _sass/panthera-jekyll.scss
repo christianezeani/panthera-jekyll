@@ -1,2 +1,10 @@
-@import './variables.scss';
+@import './root/root.scss';
+@import './root/variables.scss';
 
+@import './main.scss';
+
+@import './includes/left.scss';
+@import './includes/right.scss';
+@import './includes/header.scss';
+@import './includes/footer.scss';
+@import './includes/content.scss';

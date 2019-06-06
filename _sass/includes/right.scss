@@ -1,0 +1,9 @@
+.pan-layout-right {
+  display: block;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: var(--pan-layout-left-width);
+  right: 0px;
+  overflow-x: hidden;
+}

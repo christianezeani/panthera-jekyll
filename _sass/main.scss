@@ -1,0 +1,22 @@
+html, body {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  width: 100vw;
+  height: 100vh;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.pan-layout {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
