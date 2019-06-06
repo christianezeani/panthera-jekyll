@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color: #FFF;
   z-index: 10;
 
   &:before {
@@ -27,6 +28,10 @@
     position: absolute;
     left: 0px;
     right: 0px;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
   }
 
   &__top {
@@ -57,6 +62,24 @@
       top: 50%;
       transform: translateY(-50%);
     }
+  }
+
+  &__info {
+    position: absolute;
+    top: 200px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    // font-weight: lighter;
+  }
+
+  &__subtitle {
+    font-weight: lighter;
   }
 
 }

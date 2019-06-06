@@ -2,12 +2,24 @@
   <div class="pan-layout-left__top">
     <div class="pan-layout-left__avatar">
       {% if site.github.owner_gravatar_url %}
-      <img src="{{ site.github.owner_gravatar_url }}" alt="{{ site.github.owner_name }}">
+      <img src="{{ site.avatar | default: site.github.owner_gravatar_url }}" alt="{{ site.title | default: site.github.owner_name }}">
       {% else %}
       <img src="https://secure.gravatar.com/avatar/?d=mm&r=g&s=150" alt="">
       {% endif %}
     </div>
-  </div>
+    
+    <div class="pan-layout-left__info">
+      <h1 class="pan-layout-left__name">
+        {{ site.title | default: site.github.owner_name }}
+      </h1>
 
+      {% if site.subtitle %}
+      <h3 class="pan-layout-left__subtitle">
+        {{ site.subtitle }}
+      </h3>
+      {% endif %}
+    </div>
+  </div>
+  
   <div class="pan-layout-left__bottom"></div>
 </section>
