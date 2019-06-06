@@ -36,11 +36,11 @@
 
   &__top {
     top: 0px;
-    height: var(--pan-layout-left-top-width);
+    height: var(--pan-layout-left-top-height);
   }
 
   &__bottom {
-    top: var(--pan-layout-left-top-width);
+    top: var(--pan-layout-left-top-height);
     bottom: 0px;
   }
 
