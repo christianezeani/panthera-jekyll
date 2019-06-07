@@ -13,3 +13,15 @@ jQuery(document).ready(function () {
   })();
   
 });
+
+
+jQuery(document).on('pageinit', function () {
+
+  (function () {
+    jQuery('.pan-layout').on('swipeleft', function (e) {
+      var $layout = jQuery(e.currentTarget);
+      $layout.removeClass('pan-menu-open');
+    });
+  })();
+
+});

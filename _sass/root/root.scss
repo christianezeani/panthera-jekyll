@@ -2,7 +2,7 @@
 :root {
   --pan-color: #090;
 
-  --pan-layout-left-width: 250px;
+  --pan-layout-left-width: 100vw;
   --pan-layout-left-left: calc(var(--pan-layout-left-width) * -1);
   --pan-layout-left-background-color: rgba(0, 122, 204, .7);
   --pan-layout-left-background-image: url(../images/left-background.jpg);
@@ -18,16 +18,16 @@
   --pan-overlay-display: none;
 }
 
-@media (min-width: pan-device(md)) {
+
+@media (min-width: pan-device(sm)) {
   :root {
-    --pan-layout-left-width: 200px;
+    --pan-layout-left-width: 340px;
   }
 }
 
 
 @media (min-width: pan-device(md)) {
   :root {
-    --pan-layout-left-width: 340px;
     --pan-layout-left-left: 0px;
 
     --pan-layout-right-left: var(--pan-layout-left-width);

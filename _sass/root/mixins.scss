@@ -1,0 +1,15 @@
+@mixin clearfix {
+  &:before, &:after {
+    display: block;
+    content: "";
+    clear: both;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@mixin v-center {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}

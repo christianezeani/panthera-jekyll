@@ -68,14 +68,17 @@
     position: absolute;
     top: 200px;
     bottom: 0px;
-    left: 0px;
-    right: 0px;
+    left: 5px;
+    right: 5px;
     text-align: center;
     text-transform: uppercase;
   }
 
   &__title {
-    // font-weight: lighter;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 
   &__subtitle {

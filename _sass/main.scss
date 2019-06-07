@@ -8,6 +8,17 @@ html, body {
   height: 100vh;
 }
 
+body {
+  .ui-body-c,
+  .ui-overlay-c,
+  .ui-overlay-a,
+  .ui-page-theme-a,
+  .ui-page-theme-a
+  .ui-panel-wrapper {
+    text-shadow:0 0 0 !important;
+  }
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -17,7 +28,7 @@ a {
     color: rgb(0, 122, 204);
     text-decoration: none;
   }
-
+  
   &:hover {
     text-decoration: underline;
   }
@@ -42,11 +53,11 @@ h6 { font-size: .6rem; }
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-
+  
   > * {
     transition: all .3s ease-in-out;
   }
-
+  
   &-overlay {
     display: var(--pan-overlay-display);
     cursor: pointer;
@@ -58,7 +69,7 @@ h6 { font-size: .6rem; }
     background-color: rgba(0, 0, 0, .2);
     z-index: 100000;
   }
-
+  
   &.pan-menu-open {
     --pan-layout-left-left: 0px;
     --pan-layout-right-left: var(--pan-layout-left-width);

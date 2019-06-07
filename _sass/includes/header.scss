@@ -14,9 +14,7 @@
     bottom: 0px;
 
     > * {
-      top: 50%;
-      position: relative;
-      transform: translateY(-50%);
+      @include v-center;
     }
   }
 
@@ -32,5 +30,24 @@
   &__content {
     left: 50px;
     right: 0px;
+    padding: 0px 20px;
+  }
+
+  &__avatar {
+    text-align: right;
+    @include clearfix;
+    @include v-center;
+
+    > * {
+      // float: right;
+      margin-left: 10px;
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
   }
 }
