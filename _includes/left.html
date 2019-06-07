@@ -41,12 +41,8 @@
       {% if site.data.social %}
       <ul>
         {% for social in site.data.social %}
-        {% if site.data.icons.social[social.name] %}
-        <li>
-          <a target="_blank" href="{{ social.link }}">
-            <i class="{{ site.data.icons.social[social.name] }}"></i>
-          </a>
-        </li>
+        {% if social.icon %}
+        <li><a target="_blank" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
         {% endif %}
         {% endfor %}
       </ul>
