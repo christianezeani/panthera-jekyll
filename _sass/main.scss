@@ -41,4 +41,28 @@ h6 { font-size: .6rem; }
   left: 0px;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+
+  > * {
+    transition: all .3s ease-in-out;
+  }
+
+  &-overlay {
+    display: var(--pan-overlay-display);
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 100000;
+  }
+
+  &.pan-menu-open {
+    --pan-layout-left-left: 0px;
+    --pan-layout-right-left: var(--pan-layout-left-width);
+    --pan-layout-right-right: calc(var(--pan-layout-left-width) * -1);
+    --pan-overlay-display: block;
+  }
 }

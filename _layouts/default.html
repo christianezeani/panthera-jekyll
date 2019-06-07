@@ -7,7 +7,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/libs/fontawesome-5.9.0/css/all.min.css" media="screen" type="text/css">
-  
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
   <!-- <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css"> -->
 
@@ -23,6 +23,8 @@
   <section class="pan-layout">
     {% include left.html %}
 
+    <section class="pan-layout-overlay"></section>
+
     <section class="pan-layout-right">
       {% include header.html %}
 
@@ -33,6 +35,9 @@
       {% include footer.html %}
     </section>
   </section>
+
+  <script type="text/javascript" src="/assets/libs/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="{{ '/assets/js/panthera-jekyll.js?v=' | append: site.github.build_revision | relative_url }}"></script>
   
   {% if site.google_analytics %}
   <script>
