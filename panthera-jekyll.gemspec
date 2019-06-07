@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "panthera-jekyll"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Christian Ezeani"]
   spec.email         = ["christian.ezeani@gmail.com"]
 
-  spec.summary       = "This template is a quick and simple developer portfolio theme for GitHub Pages."
+  spec.summary       = "This template is a quick and simple responsive developer portfolio theme for GitHub Pages."
   spec.homepage      = "https://github.com/christianezeani/panthera-jekyll"
   spec.license       = "MIT"
 
