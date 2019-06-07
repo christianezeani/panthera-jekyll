@@ -1,0 +1,7 @@
+@function pan-device($key) {
+  @if map-has-key($device, $key) {
+    @return map-get($device, $key);
+  }
+  @return map-get($device, xl);
+}
+

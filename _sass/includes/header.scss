@@ -7,4 +7,30 @@
   background-color: #FFF;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
   z-index: 10;
+
+  > * {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+
+    > * {
+      top: 50%;
+      position: relative;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__menutoggle {
+    display: var(--pan-menutoggle-display);
+    cursor: pointer;
+    left: 0px;
+    width: 50px;
+    border-right: 1px solid #F0F0F0;
+    text-align: center;
+  }
+
+  &__content {
+    left: 50px;
+    right: 0px;
+  }
 }
