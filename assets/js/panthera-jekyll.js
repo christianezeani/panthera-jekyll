@@ -11,6 +11,12 @@ jQuery(document).ready(function () {
       $layout.removeClass('pan-menu-open');
     });
   })();
+
+  (function () {
+    var $path = document.location.pathname;
+    jQuery('[data-menu-link]').removeClass('active');
+    jQuery('[data-menu-link="' + $path + '"]').addClass('active');
+  })();
   
 });
 

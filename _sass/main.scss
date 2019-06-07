@@ -6,6 +6,7 @@ html, body {
   color: #333;
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -52,6 +53,7 @@ h6 { font-size: .6rem; }
   left: 0px;
   width: 100vw;
   height: 100vh;
+  min-height: 500px;
   overflow: hidden;
   
   > * {

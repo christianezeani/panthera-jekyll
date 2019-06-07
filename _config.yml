@@ -1,11 +1,12 @@
-
 defaults:
   -
     scope:
       path: ""
+      type: "pages"
     values:
       layout: default
 
+
 title: Christian Ezeani
-subtitle: Full-Stack Web/Software Developer
+subtitle: Full-Stack Developer
 

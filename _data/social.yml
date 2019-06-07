@@ -1,0 +1,14 @@
+- name: email
+  link: mailto:christian.ezeani@gmail.com
+
+- name: linkedin
+  link: https://www.linkedin.com/christianezeani
+
+- name: github
+  link: https://github.com/christianezeani
+
+- name: facebook
+  link: https://www.facebook.com/christian.ezeani.cyb
+
+- name: twitter
+  link: "https://www.twitter.com/christianezeani"

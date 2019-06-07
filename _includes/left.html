@@ -12,7 +12,7 @@
       <h1 class="pan-layout-left__title">
         {{ site.title | default: site.github.owner_name }}
       </h1>
-
+      
       {% if site.subtitle %}
       <h3 class="pan-layout-left__subtitle">
         {{ site.subtitle }}
@@ -21,5 +21,36 @@
     </div>
   </div>
   
-  <div class="pan-layout-left__bottom"></div>
+  <div class="pan-layout-left__middle">
+    {% if site.data.menu %}
+    <ul class="pan-layout-left__menu">
+      {% for menu in site.data.menu %}
+      <li data-menu-link="{{ menu.link }}">
+        <a href="{{ menu.link | relative_url }}">{{ menu.text }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  
+  <div class="pan-layout-left__bottom">
+    <div class="pan-layout-left__small">
+      <span>GET IN TOUCH</span>
+    </div>
+    <div class="pan-layout-left__social">
+      {% if site.data.social %}
+      <ul>
+        {% for social in site.data.social %}
+        {% if site.data.icons.social[social.name] %}
+        <li>
+          <a target="_blank" href="{{ social.link }}">
+            <i class="{{ site.data.icons.social[social.name] }}"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
 </section>

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "panthera-jekyll"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.5"
   spec.authors       = ["Christian Ezeani"]
   spec.email         = ["christian.ezeani@gmail.com"]
 
