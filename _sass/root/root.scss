@@ -9,6 +9,7 @@
   --pan-layout-left-top-height: 300px;
   --pan-layout-left-bottom-height: 70px;
   --pan-layout-left-middle-border: 1px solid rgba(255, 255, 255, .3);
+  --pan-layout-left-close-btn-display: block;
 
   --pan-layout-right-left: 0px;
   --pan-layout-right-right: 0px;
@@ -24,6 +25,7 @@
 @media (min-width: pan-device(sm)) {
   :root {
     --pan-layout-left-width: 340px;
+    --pan-layout-left-close-btn-display: none;
   }
 }
 

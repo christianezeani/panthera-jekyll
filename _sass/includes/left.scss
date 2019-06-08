@@ -165,5 +165,15 @@
     }
   }
 
+  &__close {
+    left: unset;
+    top: 0px;
+    padding: 10px 15px;
+    color: #FFF;
+    cursor: pointer;
+    z-index: 10;
+    display: var(--pan-layout-left-close-btn-display);
+  }
+
 }
 

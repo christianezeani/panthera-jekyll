@@ -10,6 +10,11 @@ jQuery(document).ready(function () {
       var $layout = jQuery(e.delegateTarget);
       $layout.removeClass('pan-menu-open');
     });
+
+    jQuery('.pan-layout').on('click', '.pan-layout-left__close', function (e) {
+      var $layout = jQuery(e.delegateTarget);
+      $layout.removeClass('pan-menu-open');
+    });
   })();
 
   (function () {
