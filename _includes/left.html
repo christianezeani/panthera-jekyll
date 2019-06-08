@@ -22,9 +22,9 @@
   </div>
   
   <div class="pan-layout-left__middle">
-    {% if site.data.menu %}
+    {% if site.menu %}
     <ul class="pan-layout-left__menu">
-      {% for menu in site.data.menu %}
+      {% for menu in site.menu %}
       <li data-menu-link="{{ menu.link }}">
         <a href="{{ menu.link | relative_url }}">{{ menu.text }}</a>
       </li>
@@ -38,9 +38,9 @@
       <span>GET IN TOUCH</span>
     </div>
     <div class="pan-layout-left__social">
-      {% if site.data.social %}
+      {% if site.social %}
       <ul>
-        {% for social in site.data.social %}
+        {% for social in site.social %}
         {% if social.icon %}
         <li><a target="_blank" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
         {% endif %}

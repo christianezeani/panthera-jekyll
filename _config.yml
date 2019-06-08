@@ -6,7 +6,54 @@ defaults:
     values:
       layout: default
 
-
 title: Christian Ezeani
 subtitle: Full-Stack Developer
 
+# Default Page Metadata
+meta:
+  title: Christian Ezeani
+  description: Description Here
+  keywords: keywords here
+
+# Side Menu Links
+menu:
+  - text: Portfolio
+    link: /
+    icon: ""
+
+  - text: Skills & Offers
+    link: /skills-and-offers
+    icon: ""
+
+  - text: Contact Me
+    link: /contact
+    icon: ""
+
+  - text: My Resume
+    link: /resume
+    icon: ""
+
+# Socialmedia Icons
+social:
+  - name: email
+    link: mailto:christian.ezeani@gmail.com
+    icon: fas fa-envelope
+
+  - name: linkedin
+    link: https://www.linkedin.com/christianezeani
+    icon: fab fa-linkedin
+
+  - name: github
+    link: https://github.com/christianezeani
+    icon: fab fa-github-square
+
+  - name: facebook
+    link: https://www.facebook.com/christian.ezeani.cyb
+    icon: fab fa-facebook-square
+
+  - name: twitter
+    link: https://www.twitter.com/christianezeani
+    icon: fab fa-twitter
+
+
+    
