@@ -9,12 +9,6 @@ defaults:
 title: Christian Ezeani
 subtitle: Full-Stack Developer
 
-# Default Page Metadata
-meta:
-  title: Christian Ezeani
-  description: Description Here
-  keywords: keywords here
-
 # Side Menu Links
 menu:
   - text: Portfolio
