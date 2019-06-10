@@ -28,11 +28,7 @@ menu:
     icon: ""
 
 # Socialmedia Icons
-social:
-  - name: email
-    link: mailto:christian.ezeani@gmail.com
-    icon: fas fa-envelope
-
+social_icons:
   - name: linkedin
     link: https://www.linkedin.com/christianezeani
     icon: fab fa-linkedin
