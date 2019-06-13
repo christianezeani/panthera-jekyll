@@ -5,6 +5,10 @@
 
 *panthera-jekyll is a Jekyll theme for GitHub Pages and Jekyll sites. You can [preview the theme to see what it looks like](https://demothemes.github.io/panthera-jekyll), or even [use it today](#usage).*
 
+<div style="text-align: center;">
+  <img src="/screenshot.png" alt="panthera-jekyll" style="width: 100%; max-width: 750px;" />
+</div>
+
 ## Installation
 
 ### Building a Jekyll Site
