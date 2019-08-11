@@ -20,15 +20,15 @@ menu:
     icon: ""
 
   - text: Thành Viên
-    link: /contact
+    link: /members
     icon: ""
 
-  - text: Công bố khoa học
-    link: /resume
+  - text: Báo cáo khoa học
+    link: /pubications
     icon: ""
 
   - text: Liên hệ
-    link: /resume
+    link: /contact
     icon: ""
 # Socialmedia Icons
 social_icons:
@@ -37,7 +37,7 @@ social_icons:
     icon: fab fa-linkedin
 
   - name: github
-    link: https://github.com/christianezeani
+    link: https://github.com/
     icon: fab fa-github-square
 
 
