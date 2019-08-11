@@ -8,7 +8,7 @@ layout: default
 * Hong-Quan Nguyen, Phuong-Thai Nguyen, Thanh-Quyen Nguyen and Van-Hiep Nguyen. Automatic Detection
 of Problematic Rules in Vietnamese Treebank. The 11th IEEE-RIFV International Conference on Computing
 and Communication Technologies. Pages 13-18, 2015.
-
+{: style="text-align: justify;"}
 * Ngoc Anh Tran, Phuong Thai Nguyen, Thanh Tinh Dao and Hong Quan Nguyen. Identifying Reduplicative
 Words for Vietnamese Word Segmentation. The 11th IEEE-RIFV International Conference on Computing and
 Communication Technologies. Pages 77-82, 2015.
