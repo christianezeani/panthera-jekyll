@@ -11,39 +11,35 @@ subtitle: Computer Science Department - University of Engineering and Technology
 
 # Side Menu Links
 menu:
-  - text: News
+  - text: Tin Tức
     link: /
     icon: ""
 
-  - text: Intros
+  - text: Giới thiệu
     link: /introduction
     icon: ""
 
-  - text: Members
+  - text: Thành Viên
     link: /contact
     icon: ""
 
-  - text: My Resume
+  - text: Công bố khoa học
     link: /resume
     icon: ""
 
+  - text: Liên hệ
+    link: /resume
+    icon: ""
 # Socialmedia Icons
 social_icons:
   - name: linkedin
-    link: https://www.linkedin.com/christianezeani
+    link: https://www.linkedin.com/
     icon: fab fa-linkedin
 
   - name: github
     link: https://github.com/christianezeani
     icon: fab fa-github-square
 
-  - name: facebook
-    link: https://www.facebook.com/christian.ezeani.cyb
-    icon: fab fa-facebook-square
-
-  - name: twitter
-    link: https://www.twitter.com/christianezeani
-    icon: fab fa-twitter
 
 
     
