@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Các Báo Cáo Khoa Học
+# Công Bố Khoa Học
 
 #### 2015
 * Hong-Quan Nguyen, Phuong-Thai Nguyen, Thanh-Quyen Nguyen and Van-Hiep Nguyen. Automatic Detection
