@@ -1,10 +1,10 @@
 
 
 ## Sinh Viên
-#### Điều Kiện
+### Điều Kiện
 * Sinh viên năm thứ ba, năm cuối
 
-#### Lợi Ích
+### Lợi Ích
 * Nghiên cứu giải quyết các bài toán có tính thời sự
 * Được tham gia sinh hoạt khoa học
 * Cơ hội thử thách, phát triển bản thân
