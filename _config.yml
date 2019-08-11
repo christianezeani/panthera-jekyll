@@ -11,15 +11,15 @@ subtitle: Computer Science Department - University of Engineering and Technology
 
 # Side Menu Links
 menu:
-  - text: Portfolio
+  - text: News
     link: /
     icon: ""
 
-  - text: Skills & Offers
+  - text: Intros
     link: /skills-and-offers
     icon: ""
 
-  - text: Contact Me
+  - text: Members
     link: /contact
     icon: ""
 
