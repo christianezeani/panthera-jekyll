@@ -15,7 +15,7 @@ menu:
     link: /
     icon: ""
 
-  - text: Giới thiệu
+  - text: Giới Thiệu
     link: /introduction
     icon: ""
 
@@ -23,10 +23,18 @@ menu:
     link: /members
     icon: ""
 
-  - text: Báo cáo khoa học
+  - text: Công Bố khoa học
     link: /publications
     icon: ""
 
+  - text: Tài Nguyên
+    link: /resources
+    icon: ""
+    
+  - text: Tuyển Dụng
+    link: /recruitment
+    icon: ""
+    
   - text: Liên hệ
     link: /contact
     icon: ""
