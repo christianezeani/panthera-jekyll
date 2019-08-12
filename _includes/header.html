@@ -3,15 +3,15 @@
     <i class="fas fa-bars"></i>
   </div>  
 
-  <div class="pan-layout-header__content">
-    <div class="row">
-    <!-- <div class="col-sm-6"> -->
-    <div> 
-      <button type="button" id="btnSwithLang" class="btn btn-primary">En</button>
-    <!-- </div> -->
-    </div>
-    <!-- <div class="col-sm-6"> -->
+  <div class="pan-layout-header__content">           
     <div class="pan-layout-header__avatar">
+        <div style="margin-left: 30px;"> 
+            <select class="browser-default custom-select">
+                <option value="en" selected>English</option>
+                <option value="vi">Vietnamese</option>            
+            </select>
+        </div>     
+        
       <span>{{ site.title | default: site.github.owner_name }}</span>
       
       {% if site.github.owner_gravatar_url %}
@@ -19,8 +19,6 @@
       {% else %}
       <img src="https://secure.gravatar.com/avatar/?d=mm&r=g&s=40" alt="">
       {% endif %}      
-    </div>
-    </div>
-    <!-- </div> -->
+    </div>      
   </div>
 </section>
