@@ -4,30 +4,25 @@
   </div>  
 
   <div class="pan-layout-header__content">
-      <div class="pan-layout-header__avatar">
-  <div class="row">        
-      <div class="col-sm-6">
-      </div>
-      <div class="col-sm-6">  
-          <div class="row">  
-              <div class="col-sm-6">
-                  <select>
-                      <option value="en" selected>English</option>
-                      <option value="vi">Vietnamese</option>            
-                  </select>
-              </div>
-              <div class="col-sm-6">                  
-                  <span>{{ site.title | default: site.github.owner_name }}</span>
-          
-                  {% if site.github.owner_gravatar_url %}
-                  <img src="{{ site.avatar | default: site.github.owner_gravatar_url }}" alt="{{ site.title | default: site.github.owner_name }}">
-                  {% else %}
-                  <img src="https://secure.gravatar.com/avatar/?d=mm&r=g&s=40" alt="">
-                  {% endif %}                
-              </div>
-          </div>                                      
-    </div>       
-  </div>
-  </div>
-  </div>
+    <div class="pan-layout-header__avatar">
+      <div class="row">        
+        <div class="col-sm-5">
+        </div>
+        <div class="col-sm-3">                          
+          <select>
+            <option value="en" selected>English</option>
+            <option value="vi">Vietnamese</option>            
+          </select>  
+        </div>            
+        <div class="col-sm-4">                  
+          <span>{{ site.title | default: site.github.owner_name }}</span>
+          {% if site.github.owner_gravatar_url %}
+          <img src="{{ site.avatar | default: site.github.owner_gravatar_url }}" alt="{{ site.title | default: site.github.owner_name }}">
+          {% else %}
+          <img src="https://secure.gravatar.com/avatar/?d=mm&r=g&s=40" alt="">
+          {% endif %}                
+        </div>                                              
+      </div>       
+    </div>
+  </div>  
 </section>
