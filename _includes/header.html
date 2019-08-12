@@ -5,6 +5,7 @@
 
   <div class="pan-layout-header__content">           
     <div class="pan-layout-header__avatar">
+      <div class="row">        
         <div style="margin-right: 30px;"> 
             <select>
                 <option value="en" selected>English</option>
@@ -12,13 +13,14 @@
             </select>
         </div>     
         
-      <span>{{ site.title | default: site.github.owner_name }}</span>
-      
-      {% if site.github.owner_gravatar_url %}
-      <img src="{{ site.avatar | default: site.github.owner_gravatar_url }}" alt="{{ site.title | default: site.github.owner_name }}">
-      {% else %}
-      <img src="https://secure.gravatar.com/avatar/?d=mm&r=g&s=40" alt="">
-      {% endif %}      
+        <span>{{ site.title | default: site.github.owner_name }}</span>
+        
+        {% if site.github.owner_gravatar_url %}
+        <img src="{{ site.avatar | default: site.github.owner_gravatar_url }}" alt="{{ site.title | default: site.github.owner_name }}">
+        {% else %}
+        <img src="https://secure.gravatar.com/avatar/?d=mm&r=g&s=40" alt="">
+        {% endif %}    
+      </div>  
     </div>      
   </div>
 </section>
