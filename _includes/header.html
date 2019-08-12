@@ -1,13 +1,16 @@
 <section class="pan-layout-header">
   <div class="pan-layout-header__menutoggle">
     <i class="fas fa-bars"></i>
-  </div>
-  
-  <div> 
-    <button type="button" id="btnSwithLang" class="btn btn-primary">En</button>
-  </div>
+  </div>  
 
   <div class="pan-layout-header__content">
+    <div class="row">
+    <div class="col-sm-6">
+    <div> 
+      <button type="button" id="btnSwithLang" class="btn btn-primary">En</button>
+    </div>
+    </div>
+    <div class="col-sm-6">
     <div class="pan-layout-header__avatar">
       <span>{{ site.title | default: site.github.owner_name }}</span>
       
@@ -16,6 +19,8 @@
       {% else %}
       <img src="https://secure.gravatar.com/avatar/?d=mm&r=g&s=40" alt="">
       {% endif %}      
+    </div>
+    </div>
     </div>
   </div>
 </section>
