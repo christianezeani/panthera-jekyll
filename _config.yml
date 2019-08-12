@@ -12,11 +12,11 @@ subtitle: Computer Science Department - University of Engineering and Technology
 # Side Menu Links
 menu:
   - text: Giới Thiệu
-    link: /introduction
+    link: /
     icon: ""
     
   - text: Tin Tức
-    link: /
+    link: /news
     icon: ""
 
   - text: Thành Viên
