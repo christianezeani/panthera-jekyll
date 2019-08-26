@@ -15,7 +15,7 @@ dark_footer: false           # keep the footer dark
 navigation:                  # site navigation in the header
   - Giới thiệu: /
   - News.md
-  - Members.md
+  - markdown_description/en/Members.md  
   - Publications.md
   - Resources.md
   - Recruitment.md
