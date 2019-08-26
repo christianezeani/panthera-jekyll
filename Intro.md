@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Giới thiệu"
 permalink: "/intro/"
 ---

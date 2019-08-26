@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Công bố khoa học"
 permalink: "/publications/"
 ---

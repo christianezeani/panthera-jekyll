@@ -1,8 +1,3 @@
----
-title: "Tin tức"
-permalink: "/news/"
----
-
 # Tin tức
 ---
 
