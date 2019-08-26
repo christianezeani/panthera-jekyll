@@ -13,5 +13,5 @@ permalink: "/news/"
 ## Lịch seminar  
   * Đang cập nhật..
 
-{% translate_file news/News.md %}
+<!-- {% translate_file news/News.md %} -->
 
