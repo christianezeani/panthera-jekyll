@@ -35,7 +35,8 @@ You can use this theme with the `jekyll-remote-theme` plugin. Just create an emp
 remote_theme: niklasbuschmann/contrast@v1.0
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-remote-theme  
+  - jekyll-multiple-languages-plugin
 ```
 
 ## License
