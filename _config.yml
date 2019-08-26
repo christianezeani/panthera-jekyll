@@ -1,32 +1,48 @@
-# Dependencies
-#
-markdown:         redcarpet
+title: "NLP lab at UET"
+author: "NLP lab"
+description: "An awesome NLP lab"
+permalink: /:title/
+gems: ['jekyll-paginate', 'jekyll-multiple-languages']
+languages: ["vi", "ja", "en", "fr"]
+language_default: 'en'
+# exclude_from_localizations: ["assets", "CNAME"]
+# exclude_from_localizations: ["javascript", "images", "css", "xml"]
 
-redcarpet:
-  extensions:   ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+show_footer: false           # show the "previous" and "next" links at the end of each post
+dark_theme: false            # use the dark mode as default
+dark_header: true            # keep the header dark 
+dark_footer: false           # keep the footer dark
+#style: minimal             # use a simpler style inspired by the minima theme
 
-# Permalinks, default is pretty
-permalink:        pretty
+navigation:                  # site navigation in the header
+  - Giới thiệu: /
+  - News.md
+  - Members.md  
+  - Publications.md
+  - Resources.md
+  - Recruitment.md
+  - Contact.md
 
-highlighter:       pygments
+# navigation:                  # site navigation in the header
+#   - Giới thiệu: /en
+#   - News.md
+#   - Members.md  
+#   - Publications.md
+#   - Resources.md
+#   - Recruitment.md
+#   - Contact.md
+  
 
-paginate:       10
-paginate_path:  "/index/page:num"
+#icons:                      # icons in the header, see http://fontawesome.com/icons
+#  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
+#  github: "https://github.com/niklasbuschmann/contrast"
+#  rss: "/contrast/feed.xml"
 
-# Server
-host:             0.0.0.0
-port:             9001
-baseurl:          /
-url:              http://localhost:9001
-encoding:         UTF-8
+comments:                    # embed disqus or isso comments
+#  disqus: ""
+#  isso: ""
 
-exclude:
-  - "tools"
-
-# Multiple languages
-gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
-
-languages:          ['en', 'cn']
-
-# If not config, the first of languages will be the default
-language_default:   'en'
+plugins:
+ - jekyll-feed
+ - jekyll-default-layout
+ - jekyll-multiple-languages-plugin

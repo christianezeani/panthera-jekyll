@@ -1,0 +1,48 @@
+---
+---
+
+@import index
+
+body > header, article, body > footer
+  padding: 1.5em
+
+@media (min-width: 40em)
+  body > header, article, body > footer
+    padding: 1.5em calc(34% - 12rem)
+
+{% if site.dark_header %}
+
+body > header
+  background: #46A5E5
+  color: #fff
+  border-bottom: 1px solid rgba(255, 255, 255, .05)
+
+{% else %}
+
+body > header
+  box-shadow: 0 0 .6em rgba(40, 40, 40, .05)
+  border-bottom: 1px solid reduce(12)
+
+{% endif %}
+
+{% if site.show_footer %}
+
+@import anchor
+
+{% if site.dark_footer %}
+
+body > footer
+  background: #2b2b2b
+  color: #aaa
+  border-bottom: 1px solid rgba(255, 255, 255, .05)
+
+{% else %}
+
+body > footer
+  background: reduce(5)
+  color: reduce(100)
+  border-top: 1px solid reduce(12)
+
+{% endif %}
+
+{% endif %}
