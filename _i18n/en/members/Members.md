@@ -19,7 +19,7 @@
 * MSc. Huy
 
 ## Student
-* Dinh Khac Quy (K57 UET)
+* Dinh Khac Quy (K60 UET)
 * Japanese market-oriented IT group of 4 (UET)
 
 ## Co-operate

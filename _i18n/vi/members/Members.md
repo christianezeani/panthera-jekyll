@@ -19,7 +19,7 @@
 * ThS. Huy
 
 ## Sinh viên
-* Đinh Khắc Quý (K57 UET)
+* Đinh Khắc Quý (K60 UET)
 * Nhóm 4 em ngành CNTT định hướng thị trường Nhật Bản (UET)
 
 ## Hợp tác
