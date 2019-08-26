@@ -7,6 +7,9 @@
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<script src="assets/js/default.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
@@ -33,22 +36,27 @@
 <header>  
     <h2><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h2>
     <select class="form-control form-control-sm" 
+        id="input_lang"
         style="width: 150px; float: right; margin-right: 68px;">
-      <option>Vietnamese</option>
-      <option>Japanese</option>
-      <option>English</option>
-      <option>French</option>
+      <option value="vi">Vietnamese</option>
+      <option value="ja">Japanese</option>
+      <option value="en">English</option>
+      <option value="fr">French</option>
     </select>               
   {% if site.navigation %}
-    <nav>          
-      {% for path in jekyll-multiple-languages-pluginsite.navigation %}
+    <nav>        
+        {% if page.is_default_language %}
+        {% assign url_pre = '/' | prepend: site.baseurl | replace: '//', '/' %}
+        {% else %}
+        {% assign url_pre =  page.language | prepend: site.baseurl | replace: '//', '/' %}
+        {% endif %}
+                
         {% if path.first %}
           <a href="{{ path.first[1] }}">{{ path.first[0] }}</a>
-        {% else %}
+        {% else %}          
           {% assign node = site.pages | where: "name", path | first %}
           <a href="{{ node.url | relative_url }}">{{ node.title }}</a>
-        {% endif %}     
-      {% endfor %}      
+        {% endif %}      
     </nav>
   {% endif %}
   {% if site.icons %}
