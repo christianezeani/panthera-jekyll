@@ -1,53 +1,37 @@
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: default
+title: "NLP lab at UET"
+author: "NLP lab"
+description: "An awesome NLP lab"
+permalink: /:title/
+lang: "en"
+languages: ["vi", "ja", "en", "fr"]
+exclude_from_localizations: ["javascript", "images", "css", "xml"]
 
-title: NLP lab
-subtitle: Computer Science Department - University of Engineering and Technology, VNUH
+show_footer: false           # show the "previous" and "next" links at the end of each post
+dark_theme: false            # use the dark mode as default
+dark_header: true            # keep the header dark 
+dark_footer: false           # keep the footer dark
+#style: minimal             # use a simpler style inspired by the minima theme
 
-# Side Menu Links
-menu:
-  - text: Giới Thiệu
-    link: /
-    icon: ""
-    
-  - text: Tin Tức
-    link: /news
-    icon: ""
+navigation:                  # site navigation in the header
+  - Giới thiệu: /
+  - News.md
+  - Members.md
+  - Publications.md
+  - Resources.md
+  - Recruitment.md
+  - Contact.md
+  
 
-  - text: Thành Viên
-    link: /members
-    icon: ""
+#icons:                      # icons in the header, see http://fontawesome.com/icons
+#  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
+#  github: "https://github.com/niklasbuschmann/contrast"
+#  rss: "/contrast/feed.xml"
 
-  - text: Công Bố khoa học
-    link: /publications
-    icon: ""
+comments:                    # embed disqus or isso comments
+#  disqus: ""
+#  isso: ""
 
-  - text: Tài Nguyên
-    link: /resources
-    icon: ""
-    
-  - text: Tuyển Dụng
-    link: /recruitment
-    icon: ""
-    
-  - text: Liên hệ
-    link: /contact
-    icon: ""
-# Socialmedia Icons
-social_icons:
-  - name: linkedin
-    link: https://www.linkedin.com/
-    icon: fab fa-linkedin
-
-  - name: github
-    link: https://github.com/
-    icon: fab fa-github-square
-
-
-
-    
+plugins:
+ - jekyll-feed
+ - jekyll-default-layout
+ - jekyll-multiple-languages-plugin
