@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Thành viên"
+permalink: "/members/"
+---
 # Thành viên
 ---
 
