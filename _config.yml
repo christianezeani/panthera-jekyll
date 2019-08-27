@@ -5,9 +5,9 @@ permalink: /:title/
 t:
     title:
         vi: "Phòng nghiên cứu NLP tại UET"
-        ja: ""        
+        ja: "UETのNLPラボ"        
         en: "NLP lab at UET"
-        fr: ""
+        fr: "La laboratoire de PNL à l'UET"
 
 # exclude_from_localizations: ["assets", "CNAME"]
 # exclude_from_localizations: ["javascript", "images", "css", "xml"]
