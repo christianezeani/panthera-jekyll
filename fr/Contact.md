@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Le contact"
-lang: fr
+title: "Contact"
+lang: FR
 ref: Contacts
 order: 7
 ---

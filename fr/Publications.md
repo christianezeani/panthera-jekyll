@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Les publications"
-lang: fr
+title: "Publications"
+lang: FR
 ref: Publications
 order: 3
 ---

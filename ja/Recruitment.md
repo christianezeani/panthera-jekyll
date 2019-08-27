@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "募集"
-lang: ja
+lang: JA
 ref: Recruitment
 order: 5
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: 会員
 ref: Members
-lang: ja
+lang: JA
 order: 1
 ---
 # 会員

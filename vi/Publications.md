@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Công bố khoa học"
-lang: vi
+lang: VI
 ref: Publications
 order: 3
 ---

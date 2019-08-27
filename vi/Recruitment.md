@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tuyển dụng"
-lang: vi
+lang: VI
 ref: Recruitment
 order: 5
 ---

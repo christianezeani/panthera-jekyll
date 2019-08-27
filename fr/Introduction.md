@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "L'introduction"
+title: "Introduction"
 ref: Introduction
-lang: fr
+lang: FR
 order: 0
 ---
 # L'introduction

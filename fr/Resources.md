@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Les Resources"
-lang: fr
+title: "Resources"
+lang: FR
 ref: Resources
 order: 4
 ---

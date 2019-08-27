@@ -2,7 +2,7 @@
 layout: page
 title: "Giới thiệu"
 ref: Introduction
-lang: vi
+lang: VI
 permalink: "/"
 order: 0
 ---

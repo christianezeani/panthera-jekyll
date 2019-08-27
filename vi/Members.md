@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Thành viên
-lang: vi
+lang: VI
 ref: Members
 order: 1
 ---

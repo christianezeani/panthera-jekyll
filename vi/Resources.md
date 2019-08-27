@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tài nguyên"
-lang: vi
+lang: VI
 ref: Resources
 order: 4
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Les membres
-lang: fr
+title: Membres
+lang: FR
 ref: Members
 order: 1
 ---

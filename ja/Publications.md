@@ -2,7 +2,7 @@
 layout: page
 title: "刊行物"
 ref: Publications
-lang: ja
+lang: JA
 order: 3
 ---
 # 科学出版

@@ -2,7 +2,7 @@
 layout: page
 title: "前書き"
 ref: Introduction
-lang: ja
+lang: JA
 order: 0
 ---
 # はじめに

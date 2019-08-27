@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Recruitment"
-lang: en
+lang: EN
 ref: Recruitment
 order: 5
 ---

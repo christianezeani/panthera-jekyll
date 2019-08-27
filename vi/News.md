@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tin tức"
-lang: vi
+lang: VI
 ref: News
 order: 2
 ---

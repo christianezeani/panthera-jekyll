@@ -2,7 +2,7 @@
 layout: page
 title: "連絡先"
 ref: Contacts
-lang: ja
+lang: JA
 order: 7
 ---
 # 接触

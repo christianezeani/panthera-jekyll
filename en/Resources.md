@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resources"
-lang: en
+lang: EN
 ref: Resources
 order: 4
 ---

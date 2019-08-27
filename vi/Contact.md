@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Liên hệ"
-lang: vi
+lang: VI
 ref: Contacts
 order: 7
 ---

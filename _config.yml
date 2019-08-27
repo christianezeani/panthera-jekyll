@@ -1,13 +1,14 @@
 author: "NLP lab"
 description: "An awesome NLP lab"
 permalink: /:title/
+encoding: utf-8
 
 t:
     title:
-        vi: "Phòng nghiên cứu NLP tại UET"
-        ja: "UETのNLPラボ"        
-        en: "NLP lab at UET"
-        fr: "La laboratoire de PNL à l'UET"
+        VI: "Phòng nghiên cứu NLP tại UET"
+        JA: "UETのNLPラボ"        
+        EN: "NLP lab at UET"
+        FR: "La laboratoire de PNL à l'UET"
 
 # exclude_from_localizations: ["assets", "CNAME"]
 # exclude_from_localizations: ["javascript", "images", "css", "xml"]

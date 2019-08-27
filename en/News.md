@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "News"
-lang: en
+lang: EN
 ref: News
 order: 2
 ---

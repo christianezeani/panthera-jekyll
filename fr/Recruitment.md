@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Le recrutement"
-lang: fr
+title: "Recrutement"
+lang: FR
 ref: Recruitment
 order: 5
 ---

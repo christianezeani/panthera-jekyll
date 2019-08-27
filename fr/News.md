@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Les nouvelles"
-lang: fr
+title: "Nouvelles"
+lang: FR
 ref: News
 order: 2
 ---

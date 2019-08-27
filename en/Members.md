@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Members
-lang: en
+lang: EN
 ref: Members
 order: 1
 ---

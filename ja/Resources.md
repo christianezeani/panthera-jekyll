@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "資源"
-lang: ja
+lang: JA
 ref: Resources
 order: 4
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: "ニュース"
 ref: News
-lang: ja
+lang: JA
 order: 2
 ---
 # ニュース
