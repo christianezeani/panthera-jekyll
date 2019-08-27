@@ -1,10 +1,41 @@
-title: "NLP lab at UET"
 author: "NLP lab"
 description: "An awesome NLP lab"
 permalink: /:title/
-gems: []
-languages: ["vi", "ja", "en", "fr"]
-language_default: 'en'
+
+t:
+    title:
+        vi: "Phòng nghiên cứu NLP tại UET"
+        ja: ""        
+        en: "NLP lab at UET"
+        fr: ""
+
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+         layout: "default"         
+         lang: "vi"
+         base-url: "/"
+    -
+     scope:
+         path: ja
+     values:
+         lang: ja
+         base-url: "/ja/"
+    -
+     scope:
+         path: "en"
+     values:
+         lang: "en"
+         base-url: "/en/"        
+    -
+     scope:
+         path: fr
+     values:
+         lang: fr
+         base-url: "/fr/"
+
 # exclude_from_localizations: ["assets", "CNAME"]
 # exclude_from_localizations: ["javascript", "images", "css", "xml"]
 
@@ -14,14 +45,14 @@ dark_header: true            # keep the header dark
 dark_footer: false           # keep the footer dark
 #style: minimal             # use a simpler style inspired by the minima theme
 
-navigation:                  # site navigation in the header
-  - Introduction.md: /
-  - News.md
+navigation:                  # site navigation in the header 
+  # - Introduction.md
+  # - News.md
   - Members.md  
-  - Publications.md
-  - Resources.md
-  - Recruitment.md
-  - Contact.md
+  # - Publications.md
+  # - Resources.md
+  # - Recruitment.md
+  # - Contact.md
   
 
 #icons:                      # icons in the header, see http://fontawesome.com/icons
@@ -36,4 +67,3 @@ comments:                    # embed disqus or isso comments
 plugins:
  - jekyll-feed
  - jekyll-default-layout
- - jekyll-multiple-languages-plugin

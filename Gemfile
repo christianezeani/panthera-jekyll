@@ -1,2 +1,2 @@
 gem "jekyll-default-layout"
-gem 'jekyll-multiple-languages-plugin'
+gem "jekyll-feed"

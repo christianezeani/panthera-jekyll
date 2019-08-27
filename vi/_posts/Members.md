@@ -1,3 +1,8 @@
+---
+layout: post 
+title: Thành viên
+i18n-link: members 
+---
 # Thành viên
 ---
 

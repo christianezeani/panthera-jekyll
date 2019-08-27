@@ -1,3 +1,8 @@
+---
+layout: post
+title: Members
+i18n-link: members
+---
 # Member
 ---
 

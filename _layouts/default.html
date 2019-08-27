@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}" class="{% if site.dark_theme %}dark{% else %}light{% endif %}">
+<html class="{% if site.dark_theme %}dark{% else %}light{% endif %}">
 
 <meta charset="{{ site.encoding }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +7,13 @@
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-
-<script src="assets/js/default.js"></script>
-
+<script src="/assets/js/default.js"></script>
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
 <link rel="stylesheet" href="{{ site.style | default: "theme" | prepend: "/assets/css/" | append: ".css" | relative_url }}">
+
 {% if site.plugins contains "jekyll-feed" %}
   <link rel="alternate" type="application/atom+xml" 
     href="{{ "/feed.xml" | relative_url }}" title="{{ site.title }}" />
@@ -32,33 +32,31 @@
     src="//{{ site.comments.isso }}/js/embed.min.js">
   </script>
 {% endif %}
-
-<header>  
-    <h2><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h2>
-    <select class="form-control form-control-sm" 
-        id="input_lang"
-        style="width: 150px; float: right; margin-right: 68px;">
-      <option value="vi">Vietnamese</option>
-      <option value="ja">Japanese</option>
-      <option value="en">English</option>
-      <option value="fr">French</option>
-    </select>               
-  {% if site.navigation %}
-    <nav>        
-        {% if page.is_default_language %}
-        {% assign url_pre = '/' | prepend: site.baseurl | replace: '//', '/' %}
-        {% else %}
-        {% assign url_pre =  page.language | prepend: site.baseurl | replace: '//', '/' %}
-        {% endif %}
-                
-        {% if path.first %}
-          <a href="{{ path.first[1] }}">{{ path.first[0] }}</a>
-        {% else %}          
-          {% assign node = site.pages | where: "name", path | first %}
-          <a href="{{ node.url | relative_url }}">{{ node.title }}</a>
-        {% endif %}      
+<header>      
+    <h2><a href="{{ site.base-url }}">{{ site.t['title'][page.lang] }}</a></h2>
+    {% assign posts=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+    {% if posts.size == 0 %}
+      {% assign posts=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+    {% endif %}
+    <div class="lang">
+      <ul>
+        {% for post in posts %}
+          <li><a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>                 
+    {% if site.navigation %}
+    <nav>                       
+        {% for path in site.navigation %}
+          {% if path.first %}
+            <a href="{{ path.first[1] }}">{{ path.first[0] }}</a>
+          {% else %}          
+            {% assign node = site.posts | where: "name", path | first %}
+            <a href="{{ node.url | relative_url }}">{{ node.title }}</a>
+          {% endif %}  
+        {% endfor %}     
     </nav>
-  {% endif %}
+   {% endif %}
   {% if site.icons %}
     <nav>
     {% for link in site.icons %}
