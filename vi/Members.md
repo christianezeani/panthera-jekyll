@@ -1,7 +1,9 @@
 ---
-layout: post 
+layout: page
 title: Thành viên
-i18n-link: members 
+lang: vi
+ref: Members
+order: 1
 ---
 # Thành viên
 ---

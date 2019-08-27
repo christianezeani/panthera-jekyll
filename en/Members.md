@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: page
 title: Members
-i18n-link: members
+lang: en
+ref: Members
+order: 1
 ---
 # Member
 ---
@@ -23,14 +25,14 @@ i18n-link: members
 * MSc. Luan
 * MSc. Huy
 
-## Student
+## Students
 * Dinh Khac Quy (K60 UET)
 * Japanese market-oriented IT group of 4 (UET)
 
-## Co-operate
+## Co-operates
 * Assoc. Dr. Nguyen Le Minh: Japan Advanced Science and Technology Institute (JAIST)
 * Assoc. Dr. Le Anh Cuong: Ton Duc Thang University
 * TS. Dao Nga My: Japanese Language and Culture Faculty, Hanoi University of Agriculture, VNU
 * TS. Pham Van Lam: Institute of Linguistics, Vietnam Academy of Social Sciences
 
-## Old member
+## Old members

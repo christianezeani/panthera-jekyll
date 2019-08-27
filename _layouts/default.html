@@ -32,42 +32,47 @@
     src="//{{ site.comments.isso }}/js/embed.min.js">
   </script>
 {% endif %}
-<header>      
+<header>          
     <h2><a href="{{ site.base-url }}">{{ site.t['title'][page.lang] }}</a></h2>
-    {% assign posts=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
-    {% if posts.size == 0 %}
-      {% assign posts=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
-    {% endif %}
+
+    <!-- Start define languages options -->
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    <!-- {% if pages.size == 0 %} -->
+      <!-- {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %} -->
+    <!-- {% endif %} -->
+  
     <div class="lang">
       <ul>
-        {% for post in posts %}
-          <li><a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a></li>
+        {% for node in pages %}
+          <li><a class="{{ node.lang }}" href="{{ site.base-url }}{{ node.url }}">{{ node.lang }}</a></li>
         {% endfor %}
       </ul>
-    </div>                 
-    {% if site.navigation %}
+    </div>        
+    <!-- End -->
+
+    <!-- Navigation -->
     <nav>                       
-        {% for path in site.navigation %}
-          {% if path.first %}
-            <a href="{{ path.first[1] }}">{{ path.first[0] }}</a>
-          {% else %}          
-            {% assign node = site.posts | where: "name", path | first %}
-            <a href="{{ node.url | relative_url }}">{{ node.title }}</a>
-          {% endif %}  
-        {% endfor %}     
-    </nav>
-   {% endif %}
-  {% if site.icons %}
-    <nav>
-    {% for link in site.icons %}
-      <a class="icon" href="{{ link[1] }}">
-        <svg>
-          <use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ link[0] }}"></use>
-        </svg>
-        </a>
-    {% endfor %}
-    </nav>
-  {% endif %}  
+      {% assign pages=site.pages | where:"lang", page.lang | sort: 'order' %}
+      {% for node in pages %}
+        {% if node.title %}
+          <a href="{{ site.base-url }}{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endfor %}      
+    </nav>   
+
+    {% if site.icons %}
+      <nav>
+      {% for link in site.icons %}
+        <a class="icon" href="{{ link[1] }}">
+          <svg>
+            <use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ link[0] }}"></use>
+          </svg>
+          </a>
+      {% endfor %}
+      </nav>
+    {% endif %}  
+    <!-- End Navigation -->
+
 </header>
 
 {{ content }}
