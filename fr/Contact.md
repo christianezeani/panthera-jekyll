@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "Contact"
-lang: FR
-ref: Contacts
+lang: Français
+ref: Contact
 order: 7
 ---
-# Le contact
+# Contact
 ---
 
-### L'address
-* [Salle 315, bâtiment E3, 144 Xuan Thuy, Cau Giay, Hanoi](https://goo.gl/maps/ixbVH4tzc53eX8iw9)
+### Information
+* Gmail: Moduledk@gmail.com

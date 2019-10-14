@@ -34,14 +34,14 @@
 {% endif %}
 <header>    
     <div class="row" style="width: 100%">  
-      <div class="col-sm-9">       
+      <div class="col-sm-7">       
         <h2><a href="{{ site.base_url[page.lang] }}">{{ site.t['title'][page.lang] }}</a></h2>
       </div>
       <!-- {% if pages.size == 0 %} -->
         <!-- {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %} -->
       <!-- {% endif %} -->
 
-      <div class="col-sm-3">
+      <div class="col-sm-5" style="float: right;">
         <!-- Start define languages options -->    
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}  
         <div class="lang" style="margin-top: 7px;">
