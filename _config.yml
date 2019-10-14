@@ -2,6 +2,11 @@ author: "NLP lab"
 description: "An awesome NLP lab"
 permalink: /:title/
 encoding: utf-8
+base_url:
+    VI: /
+    JA: /ja/Introduction/
+    EN: /en/Introduction/
+    FR: /fr/Introduction/
 
 t:
     title:

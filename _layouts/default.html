@@ -35,7 +35,7 @@
 <header>    
     <div class="row" style="width: 100%">  
       <div class="col-sm-9">       
-        <h2><a href="{{ site.base-url }}">{{ site.t['title'][page.lang] }}</a></h2>
+        <h2><a href="{{ site.base_url[page.lang] }}">{{ site.t['title'][page.lang] }}</a></h2>
       </div>
       <!-- {% if pages.size == 0 %} -->
         <!-- {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %} -->
@@ -45,12 +45,12 @@
         <!-- Start define languages options -->    
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}  
         <div class="lang" style="margin-top: 7px;">
-          <ul style="display: inline;">
+          <ul style="display: inline; color: yellow;">
             {% for node in pages %}
               <li class="nav-item d-inline-flex align-items-center mr-2" 
                 style="display: inline;">
                 <a class="{{ node.lang }}" 
-                  href="{{ site.base-url }}{{ node.url }}">{{ node.lang }}</a>
+                  href="{{ node.url }}">{{ node.lang }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -65,7 +65,7 @@
         {% assign pages=site.pages | where:"lang", page.lang | sort: 'order' %}
         {% for node in pages %}
           {% if node.title %}
-            <a href="{{ site.base-url }}{{ node.url }}">{{ node.title }}</a>
+            <a href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endfor %}      
       </nav>   

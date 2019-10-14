@@ -3,10 +3,10 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="An awesome NLP lab">
+<meta name="description" content="With Markdown, it is possible to emphasize words by making them italicized, using astericks or underscores, or making them bold, using double astericks or do...">
 <meta name="author" content="NLP lab">
 <meta name="generator" content="Jekyll v3.8.6">
-<link rel="canonical" href="http://localhost:4000/about/">
+<link rel="canonical" href="http://localhost:4000/markdown-examples/">
 <script src="/assets/js/default.js"></script>
 <script src="/assets/js/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -391,61 +391,117 @@
 </header>
 
 <article>
-  <h2 id="installation">Installation</h2>
 
-<p>Just fork the repo and adjust the <code class="highlighter-rouge">_config.yml</code> to use with <a href="https://pages.github.com/">Github Pages</a> and your page is done.</p>
+<p>With Markdown, it is possible to emphasize words by making them <em>italicized</em>, using <em>astericks</em> or <em>underscores</em>, or making them <strong>bold</strong>, using <strong>double astericks</strong> or <strong>double underscores</strong>. Of course, you can combine those two formats, with both <em><strong>bold and italicized</strong></em> text, using any combination of the above syntax. You can also add a strikethrough to text using a <del>double tilde</del>.</p>
 
-<h2 id="features">Features</h2>
+<p>You can create <a href="https://github.com">inline links</a> by wrapping link text in square brackets [ ], and then wrapping the URL in parentheses ( ). For example you can link your <a href="/">home page</a>.</p>
+
+<h1 id="heading-one-h1">Heading One (h1)</h1>
+
+<h2 id="heading-two-h2">Heading Two (h2)</h2>
+
+<h3 id="heading-three-h3">Heading Three (h3)</h3>
+
+<h4 id="heading-four-h4">Heading Four (h4)</h4>
+
+<h5 id="heading-five-h5">Heading Five (h5)</h5>
+
+<h6 id="heading-six-h6">Heading Six (h6)</h6>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<h3 id="single-line">Single line</h3>
+
+<blockquote>
+  <p>My mom always said life was like a box of chocolates. You never know what you’re gonna get.</p>
+</blockquote>
+
+<h3 id="multiline">Multiline</h3>
+
+<blockquote>
+  <p>What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?</p>
+
+  <p>You get someone who stays up all night torturing himself mentally over the question of whether or not there’s a dog.</p>
+
+  <p>– <em>Hal Incandenza</em></p>
+</blockquote>
+
+<h2 id="horizontal-rule">Horizontal Rule</h2>
+
+<hr />
+
+<h2 id="table">Table</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title 1</th>
+      <th>Title 2</th>
+      <th>Title 3</th>
+      <th>Title 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First entry</td>
+      <td>Second entry</td>
+      <td>Third entry</td>
+      <td>Fourth entry</td>
+    </tr>
+    <tr>
+      <td>Fifth entry</td>
+      <td>Sixth entry</td>
+      <td>Seventh entry</td>
+      <td>Eight entry</td>
+    </tr>
+    <tr>
+      <td>Ninth entry</td>
+      <td>Tenth entry</td>
+      <td>Eleventh entry</td>
+      <td>Twelfth entry</td>
+    </tr>
+    <tr>
+      <td>Thirteenth entry</td>
+      <td>Fourteenth entry</td>
+      <td>Fifteenth entry</td>
+      <td>Sixteenth entry</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="lists">Lists</h2>
+
+<h3 id="unordered">Unordered</h3>
 
 <ul>
-  <li>supports dark mode on macOS Mojave</li>
-  <li>MathJax support</li>
-  <li>no external ressources</li>
-  <li>included archive page</li>
-  <li>supports pagination</li>
-  <li>feed generation</li>
-  <li>responsive</li>
-  <li>syntax highlighting</li>
-  <li>supports comments via <a href="https://disqus.com/">disqus</a> or <a href="http://posativ.org/isso/">isso</a></li>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+    <ul>
+      <li>First nested item</li>
+      <li>Second nested item</li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="based-on">Based on</h2>
+<h3 id="ordered">Ordered</h3>
 
-<ul>
-  <li><a href="https://github.com/jekyll/minima">Minima</a></li>
-  <li><a href="https://github.com/LeNPaul/Lagrange">Lagrange</a></li>
-  <li><a href="http://fontawesome.io/">Font Awesome</a></li>
-  <li><a href="https://katex.org/">KaTeX</a></li>
-  <li><a href="https://github.com/richleland/pygments-css">Pygments</a></li>
-</ul>
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+    <ol>
+      <li>First nested item</li>
+      <li>Second nested item</li>
+    </ol>
+  </li>
+</ol>
 
-<h2 id="installation-jekyll-remote-theme-method">Installation (jekyll-remote-theme method)</h2>
-
-<p>You can use this theme with the <code class="highlighter-rouge">jekyll-remote-theme</code> plugin. Just create an empty repo, add <code class="highlighter-rouge">index.html</code> and <code class="highlighter-rouge">archive.html</code> files (they can be empty but need to contain front matter) and add this to your <code class="highlighter-rouge">_config.yml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">niklasbuschmann/contrast@v1.0</span>
-
-<span class="na">plugins</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s">jekyll-remote-theme</span>  
-  <span class="pi">-</span> <span class="s">jekyll-multiple-languages-plugin</span>
-</code></pre></div></div>
-
-<h2 id="license">License</h2>
-
-<p><a href="http://unlicense.org/">public domain</a></p>
-
-<h2 id="screenshots">Screenshots</h2>
-
-<div class="large">
-
-  <p><img src="https://user-images.githubusercontent.com/4943215/61584980-d5d94f00-ab51-11e9-843a-af4ea884d4c5.png" alt="screenshot" /></p>
-
-  <p><img src="https://user-images.githubusercontent.com/4943215/61584981-d5d94f00-ab51-11e9-8755-92bf20205879.png" alt="screenshot" /></p>
-
-</div>
-
-
+  
+  
 </article>
+
+
 
 
 </html>
