@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Archivement"
-lang: Français
-ref: Archivement
+title: "Các thành tích"
+lang: Vietnamese
+ref: Achievement
 order: 3
 ---
-# Les publications scientifiques
+# Công bố khoa học
 ---
 
 

@@ -32,7 +32,8 @@
     src="//{{ site.comments.isso }}/js/embed.min.js">
   </script>
 {% endif %}
-<header>    
+<header style="position: fixed; top: 0%;               
+               box-shadow: 0px 4px rgba(155, 155, 155, 0.2)">    
     <div class="row" style="width: 100%">  
       <div class="col-sm-7">       
         <h2><a href="{{ site.base_url[page.lang] }}">{{ site.t['title'][page.lang] }}</a></h2>
@@ -85,6 +86,9 @@
   <!-- End Navigation -->  
 </header>
 
+<div style="text-align: justify; text-justify: inter-word; 
+            margin-top: 150px;">
 {{ content }}
+</div>
 
 </html>
