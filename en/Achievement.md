@@ -27,7 +27,8 @@ order: 3
         * Bui Van Tan, Nguyen Phuong Thai, Pham Van Lam, Dinh Khac Quy. Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features. Accepted in 2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019). 
         * Bui Van Tan, Nguyen Phuong Thai, Dinh Khac Quy. Cross-lingual Semantic
         Similarity via Cross-Lingual Embeddings. Fundamental and Applied IT Research
-        Conference (Fair), 2018.
+        Conference (Fair), 2018.  
+        
     * I have been attending the seminars discussing about deep learning and the lastest problems in NLP at NLP-UET team.
 * I completed a course during 5 days about blockchain Tezos with a certificate.
  

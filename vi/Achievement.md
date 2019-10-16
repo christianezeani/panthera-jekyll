@@ -8,6 +8,7 @@ order: 3
 # Các thành tích
 ---
 
+#### 2018-2020
 * Tôi đã tốt nghiệp bằng cử nhân khoa học máy tính, GPA = 3.3/4.0.
 * Kể từ kì thực tập tại trường, tôi đã và đang tiếp tục tái cấu trúc mã nguồn và phát triển một công cụ web giúp những người biên tập chỉnh sửa những câu, từ song ngữ tiếng Việt-Nhật. Nhờ vào công cụ này, người biên tập đã làm việc hết sức hiệu quả. Hơn nữa, tôi cộng tác với những sinh viên khác trong vai trò là người biên tập để cải thiện tính năng của công cụ. Tôi cũng đã trích xuất ra những thông tin thống kê ý nghĩa từ các dự án bằng cách dùng nó. Sau đó, tôi phân tích dữ liệu dùng google spreadsheets để quyết định điều gì phải làm tiếp để tăng hiệu suất công việc. Những chi tiết cụ thể hơn về công cụ nằm ở các đường dẫn sau.
     * [Link to web tool](http://ngulieu.dichmay.vn:8888/){:target="_blank"} 
@@ -26,7 +27,7 @@ order: 3
         * Bui Van Tan, Nguyen Phuong Thai, Pham Van Lam, Dinh Khac Quy. Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features. Accepted in 2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019). 
         * Bui Van Tan, Nguyen Phuong Thai, Dinh Khac Quy. Cross-lingual Semantic
         Similarity via Cross-Lingual Embeddings. Fundamental and Applied IT Research
-        Conference (Fair), 2018.
+        Conference (Fair), 2018.  
     * Tôi cũng đã và đang tham dự các bài thảo luận nhóm, thuyết trình về deep learning và các vấn đề hiện đại nhất trong NLP tại nhóm NLP-UET.
 * Tôi đã hoàn thành một khóa đào tạo 5 ngày về blockchain Tezos với một chứng chỉ.
  

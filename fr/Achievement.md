@@ -25,7 +25,8 @@ order: 3
     * Je contribue fortement à la construction d'une extension pour traduire une page de l'anglais vers le vietnamien ou ajouter des sous-titres vietnamiens en utilisant le serveur de traduction de l'équipe NLP-UET. J'utilise javascript/html/css côté client et python-Flask côté serveur. 
     * Je suis l'un des auteurs de deux articles. 
         * Bui Van Tan, Nguyen Phuong Thai, Pham Van Lam, Dinh Khac Quy. Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features. Accepted in 2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019).
-        * Bui Van Tan, Nguyen Phuong Thai, Dinh Khac Quy. Cross-lingual Semantic Similarity via Cross-Lingual Embeddings. Fundamental and Applied IT Research Conference (Fair), 2018.
+        * Bui Van Tan, Nguyen Phuong Thai, Dinh Khac Quy. Cross-lingual Semantic Similarity via Cross-Lingual Embeddings. Fundamental and Applied IT Research Conference (Fair), 2018.  
+        
     * J'ai assisté aux séminaires discutant de DEEP LEARNING et des derniers problèmes en NLP à l'équipe NLP-UET.
 * J'ai complété un cours de 5 jours sur la chaîne de blocs Tezos avec un certificat.
  
