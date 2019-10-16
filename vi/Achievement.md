@@ -29,7 +29,7 @@ order: 3
         Similarity via Cross-Lingual Embeddings. Fundamental and Applied IT Research
         Conference (Fair), 2018.  
     * Tôi cũng đã và đang tham dự các bài thảo luận nhóm, thuyết trình về deep learning và các vấn đề hiện đại nhất trong NLP tại nhóm NLP-UET.
-* Tôi đã hoàn thành một khóa đào tạo 5 ngày về blockchain Tezos với một chứng chỉ.
+* Tôi đã hoàn thành một khóa đào tạo 40 giờ về blockchain Tezos với một chứng chỉ.
  
 #### 2017-2018
 * Tôi đã làm việc trong nhóm 3 người trong một dự án về kiểm thử tự động dùng C#. Sau đó, dựa trên dự án này, tôi đã nhận được giải nhì trong cuộc thi sinh viên nghiên cứu khoa học của khoa CNTT UET với một chứng chỉ.

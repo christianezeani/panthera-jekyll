@@ -30,7 +30,7 @@ order: 3
         Conference (Fair), 2018.  
         
     * I have been attending the seminars discussing about deep learning and the lastest problems in NLP at NLP-UET team.
-* I completed a course during 5 days about blockchain Tezos with a certificate.
+* I completed a course during 40 hours about blockchain Tezos with a certificate.
  
 #### 2017-2018
 * I worked in a team of three people in a project about Automated Testing using C#. Afterward, based on this project, I got the 2nd prize in the contest of science research of faculty information technology UET with a certificate.

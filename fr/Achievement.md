@@ -28,7 +28,7 @@ order: 3
         * Bui Van Tan, Nguyen Phuong Thai, Dinh Khac Quy. Cross-lingual Semantic Similarity via Cross-Lingual Embeddings. Fundamental and Applied IT Research Conference (Fair), 2018.  
         
     * J'ai assisté aux séminaires discutant de DEEP LEARNING et des derniers problèmes en NLP à l'équipe NLP-UET.
-* J'ai complété un cours de 5 jours sur la chaîne de blocs Tezos avec un certificat.
+* J'ai complété un cours de 40 heures sur la chaîne de blocs Tezos avec un certificat.
  
 #### 2017-2018
 * J'ai travaillé dans une équipe de trois personnes dans un projet sur les tests automatisés en utilisant c#. Par la suite, sur la base de ce projet, j'ai obtenu le 2ème prix au concours de recherche scientifique de la faculté de technologie de l'information UET avec un certificat.
