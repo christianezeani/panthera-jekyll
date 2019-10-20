@@ -9,7 +9,7 @@ order: 3
 ---
 
 #### 2018-2020
-* J'ai obtenu un diplôme de banchelor en informatique, GPA = 3.3/4.0.
+* J'ai obtenu un diplôme de première classe de banchelor en informatique, GPA = 3.3/4.0.
 * A partir de mon stage, j'ai refactorisé et développé un outil web qui aide les éditeurs à éditer des phrases ou mots bilingues japonais-vietnamien. Grâce à cet outil, les éditeurs travaillent très efficacement. De plus, je travaille avec d'autres étudiants qui sont dans le rôle d'éditeurs pour améliorer l'outil. J'ai également extrait des informations significatives sur les projets en l'utilisant. Par la suite, j'analyse les données à l'aide de Google spreadsheets pour décider quoi doivent faire ensuite pour améliorer la performance. Vous trouverez plus de détails sur cet outil dans les liens suivants.  
     * [Lien vers l'outil web](http://ngulieu.dichmay.vn:8888/){:target="_blank"}   
     * [Lien vers le rapport de stage - orientation vers l'outil Web](https://drive.google.com/file/d/1pcfHZEsMSg7HKkSC_BkELBJZeas5uZoi/view?usp=sharing){:target="_blank"}

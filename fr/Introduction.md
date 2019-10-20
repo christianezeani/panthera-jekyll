@@ -7,7 +7,7 @@ order: 0
 ---
 # Introduce
 * Je suis Dinh Khac Quy. Je suis né en 1997, au Vietnam.  
-* J'ai obtenu un baccalauréat en informatique de l'Université d'ingénierie et de technologie - Université nationale du Vietnam (UET - VNU). Mon diplôme est bon type.
+* J'ai obtenu un baccalauréat de première classe en informatique de l'Université d'ingénierie et de technologie - Université nationale du Vietnam (UET - VNU).
 * Je suis très intéressé par Big Data, Data science, Data analytics. En utilisant ces compétences, je peux donner aux gens des perspectives significatives qui les aident à prendre des décisions et à récupérer de grandes valeurs. C'est pourquoi je suis toujours à la recherche d'opportunités pour améliorer mes compétences dans ces domaines, en particulier les stages dans de bonnes entreprises qui y travaillent.  
 * Je suis travailleur et responsable.
     
