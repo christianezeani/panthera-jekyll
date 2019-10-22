@@ -9,7 +9,7 @@ order: 3
 ---
 
 #### 2018-2020
-* I graduated with a first class computer science banchelor degree, GPA = 3.3/4.0.
+* I graduated with a first class computer science banchelor degree, GPA = 3.3/4.0, from University of Engineering and Technology - Vietnam National University (UET - VNU).
 * Starting from my internship, I have been refactoring and developing a web tool helps editors to edit Japanese-Vietnamese bilingual sentences or words. Thanks to this tool, editors work very efficiently. Moreover, I corporate with other students who are in the role of editors to enhance the tool. I also extracted meaningful information of projects by using it. Afterward, I analyze the data using google spreadsheets to decide what have to do next to improve the working performance. The more details about the tool are in the following links. 
     * [Link to web tool](http://ngulieu.dichmay.vn:8888/){:target="_blank"} 
     * [Link to internship report - guidance to web tool](https://drive.google.com/file/d/1pcfHZEsMSg7HKkSC_BkELBJZeas5uZoi/view?usp=sharing){:target="_blank"}

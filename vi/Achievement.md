@@ -9,7 +9,7 @@ order: 3
 ---
 
 #### 2018-2020
-* Tôi đã tốt nghiệp bằng cử nhân loại giỏi ngành khoa học máy tính, GPA = 3.3/4.0.
+* Tôi đã tốt nghiệp bằng cử nhân loại giỏi ngành khoa học máy tính, GPA = 3.3/4.0, của trường Đại học Công nghệ - Đại học Quốc Gia Hà Nội (UET - VNU).
 * Kể từ kì thực tập tại trường, tôi đã và đang tiếp tục tái cấu trúc mã nguồn và phát triển một công cụ web giúp những người biên tập chỉnh sửa những câu, từ song ngữ tiếng Việt-Nhật. Nhờ vào công cụ này, người biên tập đã làm việc hết sức hiệu quả. Hơn nữa, tôi cộng tác với những sinh viên khác trong vai trò là người biên tập để cải thiện tính năng của công cụ. Tôi cũng đã trích xuất ra những thông tin thống kê ý nghĩa từ các dự án bằng cách dùng nó. Sau đó, tôi phân tích dữ liệu dùng google spreadsheets để quyết định điều gì phải làm tiếp để tăng hiệu suất công việc. Những chi tiết cụ thể hơn về công cụ nằm ở các đường dẫn sau.
     * [Link to web tool](http://ngulieu.dichmay.vn:8888/){:target="_blank"} 
     * [Link to internship report - guidance to web tool](https://drive.google.com/file/d/1pcfHZEsMSg7HKkSC_BkELBJZeas5uZoi/view?usp=sharing){:target="_blank"}
