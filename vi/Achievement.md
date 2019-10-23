@@ -35,7 +35,7 @@ order: 3
 * Tôi đã làm việc trong nhóm 3 người trong một dự án về kiểm thử tự động dùng C#. Sau đó, dựa trên dự án này, tôi đã nhận được giải nhì trong cuộc thi sinh viên nghiên cứu khoa học của khoa CNTT UET với một chứng chỉ.
 
 #### 2016-2017
-* Tôi đã hoàn thành một khóa đào tạo phát triển ứng dụng Android tại ITPlus với một chứng chỉ. Sau đó, tôi đã tham gia một khóa thực tập kéo dài 4 tháng trong 1 công ty outsource.
+* Tôi đã hoàn thành một khóa đào tạo phát triển ứng dụng Android tại ITPlus với một chứng chỉ. Sau đó, tôi đã tham gia một khóa thực tập kéo dài 4 tháng về phát triển ứng dụng Android trong 1 công ty outsource.
 
 #### 2015-2016
 * Tôi nhận được một suất học bổng khuyến khích học tập của trường UET.

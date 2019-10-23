@@ -36,7 +36,7 @@ order: 3
 * I worked in a team of three people in a project about Automated Testing using C#. Afterward, based on this project, I got the 2nd prize in the contest of science research of faculty information technology UET with a certificate.
 
 #### 2016-2017
-* I completed a course about Android application development at ITPlus with a certificate. Afterward, I joined a training program during four months in a company.
+* I completed a course about Android application development at ITPlus with a certificate. Afterward, I joined an internship during four months about Android application development in a company.
 
 #### 2015-2016
 * I got an encouragement scholarship in my school, UET.

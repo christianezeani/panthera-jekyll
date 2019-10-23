@@ -34,7 +34,7 @@ order: 3
 * J'ai travaillé dans une équipe de trois personnes dans un projet sur les tests automatisés en utilisant c#. Par la suite, sur la base de ce projet, j'ai obtenu le 2ème prix au concours de recherche scientifique de la faculté de technologie de l'information UET avec un certificat.
 
 #### 2016-2017
-* J'ai complété un cours sur le développement d'applications Android chez ITPlus avec un certificat. Par la suite, j'ai suivi une formation de quatre mois en entreprise.
+* J'ai complété un cours sur le développement d'applications Android chez ITPlus avec un certificat. Par la suite, j'ai suivi un stage de quatre mois du développement d'applications Android en entreprise.
 
 #### 2015-2016
 * J'ai eu une bourse d'encouragement dans mon école, UET.
