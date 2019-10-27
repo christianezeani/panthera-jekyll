@@ -21,7 +21,7 @@ order: 3
     * Tôi đã hỗ trợ nhóm khai thác và xử lý dữ liệu có sẵn trong các websites để xây dựng các tệp dữ liệu song ngữ Nhật-Việt.
     * Tôi đã và đang tiếp tục xây dựng website dùng nền tảng Flask với ngôn ngữ lập trình Python. Nó dùng một máy chủ dịch của nhóm NLP-UET để dịch câu và cũng hướng tới dịch tài liệu.
     <!-- [Link app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
-    <!-- [Link guidances](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
+    <!-- [Link report - guidances of the app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     * Tôi đã đóng góp nhiều trong việc xây dựng một ứng dụng "extension" để dịch một trang từ Tiếng Anh sang Tiếng Việt hoặc thêm phụ đề tiếng Việt dùng máy chủ dịch của nhóm NLP-UET. Tôi dùng javascript/html/css trong phia máy khách và python-Flask trong phía máy chủ.
     * Tôi là một trong số các tác giả của hai bài báo.
         * Bui Van Tan, Nguyen Phuong Thai, Pham Van Lam, Dinh Khac Quy. Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features. Accepted in 2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019). 

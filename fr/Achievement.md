@@ -21,7 +21,7 @@ order: 3
     * J'ai aidé l'équipe à explorer et prétraiter les données des sites Web pour construire des ensembles de données bilingues vietnamien-japonais.
     * J'ai construit un site web en utilisant le framework Flask avec la programmation Python. Il utilise un serveur de traduction de l'équipe NLP-UET pour traduire des phrases et des documents. 
     <!--[Link app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
-    <!--[Lien guidances](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
+    <!--[Lien de rapport du app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     * Je contribue fortement à la construction d'une extension pour traduire une page de l'anglais vers le vietnamien ou ajouter des sous-titres vietnamiens en utilisant le serveur de traduction de l'équipe NLP-UET. J'utilise javascript/html/css côté client et python-Flask côté serveur. 
     * Je suis l'un des auteurs de deux articles. 
         * Bui Van Tan, Nguyen Phuong Thai, Pham Van Lam, Dinh Khac Quy. Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features. Accepted in 2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019).
