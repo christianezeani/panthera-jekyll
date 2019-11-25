@@ -6281,7 +6281,7 @@ var defineFunction_ordargument = function ordargument(arg) {
 
 
 
-var buildHTML_makeSpan = buildCommon.makeSpan; // Binary atoms (first class `mbin`) change into ordinary atoms (`mord`)
+var buildHTML_makeSpan = buildCommon.makeSpan; // Binary atoms (distinction `mbin`) change into ordinary atoms (`mord`)
 // depending on their surroundings. See TeXbook pg. 442-446, Rules 5 and 6,
 // and the text before Rule 19.
 
