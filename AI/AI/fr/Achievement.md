@@ -32,8 +32,8 @@ order: 3
 ![](/Certificates/Tezos.jpg "Certificat Blockchain Tezos.")
 
 #### 2017-2018
-* Mon groupe a gagné un deuxième prix dans concours de classe d'intelligence artificielle.
-![](/Certificates/AI.jpg "Certificat deuxième prix dans concours de classe d'intelligence artificielle.")
+* Mon groupe a gagné un deuxième prix dans concours de classe en classe d'intelligence artificielle.
+![](/Certificates/AI.jpg "Certificat deuxième prix dans concours de classe en classe d'intelligence artificielle.")
 
 * J'ai travaillé dans une équipe de trois personnes dans un projet sur les tests automatisés en utilisant c#. Par la suite, sur la base de ce projet, j'ai obtenu le 2ème prix au concours de recherche scientifique de la faculté de technologie de l'information UET-VNU avec un certificat.
 ![](/Certificates/Csharp.jpg "Certificat dans concours de recherche scientifique de la faculté de technologie de l'information c.")
