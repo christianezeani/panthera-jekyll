@@ -4,8 +4,8 @@ permalink: /:title/
 encoding: utf-8
 base_url:
     English: /
-    Vietnamese: /AI/vi/Introduction/
-    Français: /AI/fr/Introduction/
+    Vietnamese: /vi/Introduction/
+    Français: /fr/Introduction/
 
 t:
     title:
