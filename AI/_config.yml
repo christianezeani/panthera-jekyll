@@ -3,7 +3,7 @@ description: "An awesome NLP lab"
 permalink: /:title/
 encoding: utf-8
 base_url:
-    English: /AI/
+    English: /
     Vietnamese: /AI/vi/Introduction/
     Français: /AI/fr/Introduction/
 
