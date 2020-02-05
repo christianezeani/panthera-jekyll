@@ -9,8 +9,8 @@ order: 1
 ---
 
 #### 2018-2020
-* I graduated with a distinction computer science banchelor degree, GPA = 3.31/4.0, from University of Engineering and Technology - Vietnam National University (UET - VNU).
-* My thesis focuses on identifying Vietnamese antonymous word-pairs from other semantic relations. I used many statistical machine learning techniques and conduct a lot of researches in previous well-known relevant papers. 
+* I graduated with a distinction Computer Science Banchelor degree, GPA = 3.31/4.0, from University of Engineering and Technology - Vietnam National University (UET - VNU).
+* My thesis focuses on identifying Vietnamese antonymous word-pairs from other semantic relations. I used many statistical machine learning techniques and conducted a lot of researches in previous well-known relevant papers. 
     * [*Link to thesis report*](https://drive.google.com/file/d/1PT8kAXZ1uPSEA3Tmh38V5i0E-Z30ZfW8/view?usp=sharing){:target="_blank"} 
 
 * Starting from my internship, I have been refactoring and developing a web tool helps editors to edit Japanese-Vietnamese bilingual sentences or words. Thanks to this tool, editors work very efficiently. Moreover, I corporate with other students who are in the role of editors to enhance the tool. I also extracted meaningful information of projects by using it. Afterward, I analyze the data using google spreadsheets to improve the working performance. The more details about the tool are in the following links. 

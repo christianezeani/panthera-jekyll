@@ -9,7 +9,7 @@ order: 1
 ---
 
 #### 2018-2020
-* J'ai obtenu un diplôme de distinction de banchelor en informatique, GPA = 3.31/4.0, de l'Université d'ingénierie et de technologie - Université nationale du Vietnam (UET - VNU).
+* J'ai obtenu un diplôme de distinction de Banchelor en Informatique, GPA = 3.31/4.0, de l'Université d'ingénierie et de technologie - Université nationale du Vietnam (UET - VNU).
 * Ma thèse porte sur l'identification des paires de mots antonymes vietnamiens à partir d'autres relations sémantiques. J'ai utilisé de nombreuses techniques d'apprentissage automatique statistique et j'ai mené de nombreuses recherches dans des articles pertinents bien connus. 
     * [*Lien vers le rapport de thèse*](https://drive.google.com/file/d/1PT8kAXZ1uPSEA3Tmh38V5i0E-Z30ZfW8/view?usp=sharing){:target="_blank"}
 
