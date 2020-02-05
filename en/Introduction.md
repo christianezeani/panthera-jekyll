@@ -13,8 +13,7 @@ order: 0
 * I am hard-working and responsible.
     
 #### Hobbies
-* Walking in peaceful places with beautiful sights like colorful birds, green trees, clean lakes.
-* Admire national heroes, great peoples in many countries, especially, Vietnam, French, China, Germany, 
-Russia. It should be noted that I do not want to evaluate who are better or worse than others because all of them are great and give me awesome lessons.
-* Take lessons from reading books with critical thinking.
-* Love adorable dogs or cats, especially puppies.
+* I love walking in peaceful places with beautiful sights like colorful birds, green trees, clean lakes because it keeps me healthy.
+* I admire national heroes, great peoples in many countries, especially, Vietnam, French, China, Germany, Russia because they bring me many good lessons for developing my skills and attitude.
+* I love taking lessons from reading soft-skill and psylosophi books with critical thinking and discuss with friends.
+* I love adorable dogs or cats, especially puppies.

@@ -12,7 +12,7 @@ order: 0
 * Je suis travailleur et responsable.
     
 #### Loisirs
-* Marcher dans des endroits paisibles avec de belles vues comme des oiseaux colorés, des arbres verts, des lacs épurés.
-* Admirez les héros nationaux, les grands peuples dans de nombreux pays, en particulier au Vietnam, en France, en Chine, en Allemagne, Russie. Il est à noter que je ne veux pas évaluer qui est meilleur ou pire que les autres parce qu'ils sont tous formidables et me donnent des leçons impressionnantes.
-* Prenez des leçons en lisant des livres avec une pensée critique.
-* Aimez les chiens ou les chats adorables, surtout les chiots.
+* J'aime me promener dans des endroits paisibles avec de belles vues comme des oiseaux colorés, des arbres verts, des lacs propres parce que cela me permet de rester en bonne santé.
+* J'admire les héros nationaux, les grands peuples de nombreux pays, en particulier le Vietnam, la France, la Chine, l'Allemagne et la Russie, car ils m'apportent de nombreuses leçons pour développer mes compétences et mon attitude.
+* J'aime prendre des leçons en lisant des livres de soft-skill et de psylosophi avec une pensée critique et discuter avec des amis.
+* J'aime les chiens ou les chats adorables, surtout les chiots.

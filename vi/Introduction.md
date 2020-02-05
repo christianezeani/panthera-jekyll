@@ -12,8 +12,8 @@ order: 0
 * Tôi tự nhận định chăm chỉ và có trách nhiệm với công việc.
     
 #### Sở thích
-* Thích đi dạo tại những nơi yên bình với cảnh đẹp như chim ca, cây xanh, hồ nước sạch.
-* Ngưỡng mộ những anh hùng dân tộc, những vĩ nhân của nhiều quốc gia, như Việt Nam, Pháp, Trung Quốc, Đức, Nga. Mọi người cần chú ý rằng tôi không muốn đánh giá ai tốt hơn hay tệ hơn ai bởi vì tất cả họ đều tuyệt vời và đáng học tập.
-* Đúc rút những bài học bằng cách đọc sách kết hợp tư duy phản biện.
-* Yêu những chú chó, mèo dễ thương, đặc biệt là chó con.
+* Tôi thích đi bộ ở những nơi yên bình với những cảnh đẹp như chim sặc sỡ, cây xanh, hồ nước sạch vì điều này giúp tôi khỏe mạnh.
+* Tôi ngưỡng mộ các anh hùng dân tộc, các dân tộc lớn ở nhiều quốc gia, đặc biệt là Việt Nam, Pháp, Trung Quốc, Đức, Nga vì họ mang đến cho tôi nhiều bài học hay để phát triển kỹ năng và thái độ của tôi.
+* Tôi thích học bài học từ việc đọc sách kỹ năng mềm và tâm lý với tư duy phê phán và thảo luận với bạn bè.
+* Tôi yêu những chú chó hay mèo đáng yêu, đặc biệt là chó con
 

@@ -3,31 +3,39 @@ layout: page
 title: "Achievement"
 lang: Français
 ref: Achievement
-order: 3
+order: 1
 ---
 # Réalisations
 ---
 
 #### 2018-2020
-* J'ai obtenu un diplôme de distinction de banchelor en informatique, GPA = 3.3/4.0, de l'Université d'ingénierie et de technologie - Université nationale du Vietnam (UET - VNU).
-* A partir de mon stage, j'ai refactorisé et développé un outil web qui aide les éditeurs à éditer des phrases ou mots bilingues japonais-vietnamien. Grâce à cet outil, les éditeurs travaillent très efficacement. De plus, je travaille avec d'autres étudiants qui sont dans le rôle d'éditeurs pour améliorer l'outil. J'ai également extrait des informations significatives sur les projets en l'utilisant. Par la suite, j'analyse les données à l'aide de Google spreadsheets pour décider quoi doivent faire ensuite pour améliorer la performance. Vous trouverez plus de détails sur cet outil dans les liens suivants.  
-    * [Lien vers l'outil web](http://ngulieu.dichmay.vn:8888/){:target="_blank"}   
-    * [Lien vers le rapport de stage - orientation vers l'outil Web](https://drive.google.com/file/d/1pcfHZEsMSg7HKkSC_BkELBJZeas5uZoi/view?usp=sharing){:target="_blank"}
+* J'ai obtenu un diplôme de distinction de banchelor en informatique, GPA = 3.31/4.0, de l'Université d'ingénierie et de technologie - Université nationale du Vietnam (UET - VNU).
+* Ma thèse porte sur l'identification des paires de mots antonymes vietnamiens à partir d'autres relations sémantiques. J'ai utilisé de nombreuses techniques d'apprentissage automatique statistique et j'ai mené de nombreuses recherches dans des articles pertinents bien connus. 
+    * [*Lien vers le rapport de thèse*](){:target="_blank"}
+
+* A partir de mon stage, j'ai remanié et développé un outil web qui aide les rédacteurs à éditer des phrases ou des mots bilingues japonais-vietnamien. Grâce à cet outil, les rédacteurs travaillent très efficacement. De plus, je travaille en collaboration avec d'autres étudiants qui jouent le rôle d'éditeurs pour améliorer l'outil. J'ai également extrait des informations significatives des projets en l'utilisant. Ensuite, j'analyse les données à l'aide de feuilles de calcul Google afin d'améliorer les performances de travail. Les liens suivants donnent plus de détails sur l'outil. 
+    * [*Lien vers l'outil web*](http://ngulieu.dichmay.vn:8888/){:target="_blank"}   
+    * [*Lien vers le rapport de stage - orientation vers l'outil Web*](https://drive.google.com/file/d/1pcfHZEsMSg7HKkSC_BkELBJZeas5uZoi/view?usp=sharing){:target="_blank"}
 
 <!-- * Je rejoins une classe de Big Data. -->
-* Dans l'équipe de traitement du langage naturel de l'UET-VNU, j'ai quelques réalisations. 
-    * Je contribue grandement à la construction du site Web d'introduction pour l'équipe de recherche NLP-UET-VNU.  
-      [Introduce NLP-UET-VNU research team](https://uetnlp.github.io/en/Introduction/){:target="_blank"} 
-    * J'ai aidé l'équipe à explorer et prétraiter les données des sites Web pour construire des ensembles de données bilingues vietnamien-japonais.
-    * J'ai construit un site web en utilisant le framework Flask avec la programmation Python. Il utilise un serveur de traduction de l'équipe NLP-UET-VNU pour traduire des phrases et des documents. 
+* Dans l'équipe de traitement du langage naturel de l'UET-VNU, j'ai obtenu les résultats suivants. 
+    * Contribue grandement à la construction du site Web d'introduction pour l'équipe de recherche NLP-UET-VNU.  
+      [*Lien vers l'introduction du site de l'équipe de recherche NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"} 
+    * Aide l'équipe à explorer et prétraiter les données des sites Web pour construire des ensembles de données bilingues vietnamien-japonais.
+    * Construire un site web en utilisant le framework Flask avec une programmation Python. Il est utilisé un serveur de traduction dans l'équipe NLP-UET-VNU pour traduire des phrases et des documents en se concentrant sur la paire de langues vietnamien-japonais et en supportant le vietnamien-anglais. 
     <!--[Link app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     <!--[Lien de rapport du app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
-    * Je contribue fortement à la construction d'une extension pour traduire une page de l'anglais vers le vietnamien ou ajouter des sous-titres vietnamiens en utilisant le serveur de traduction de l'équipe NLP-UET-VNU. J'utilise javascript/html/css côté client et python-Flask côté serveur. 
-    * Je suis l'un des auteurs de deux articles. 
-        * Bui Van Tan, Nguyen Phuong Thai, Pham Van Lam, Dinh Khac Quy. Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features. Accepted in 2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019).
-        * Bui Van Tan, Nguyen Phuong Thai, Dinh Khac Quy. Cross-lingual Semantic Similarity via Cross-Lingual Embeddings. Fundamental and Applied IT Research Conference (Fair), 2018.  
+    * Contribuer fortement à la construction d'une extension pour traduire une page de l'anglais au vietnamien et ajouter des sous-titres vietnamiens aux vidéos d'enseignement de la page Coursera. Il est utilisé un serveur de traduction dans l'équipe NLP-UET-VNU. J'utilise javascript/html/css du côté client et python-Flask du côté serveur. 
+    * Je suis l'un des auteurs des articles suivants. 
+        * Étudier et expérimenter des publications antérieures bien connues afin de faire des comparaisons valables qui mettent en évidence les améliorations pour le papier *Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features* publié en *2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019)*.
+        * Construire des ensembles de données de qualité qui jouent un rôle très important dans l'expérimentation de différentes approches pour le papier *An Effective Coverage Approach for Attention-based Neural Machine Translation* publié en *2019 6th NAFOSTED Conference on Information and Computer Science (NICS 2019)*.
+        * Mener des recherches sur les publications populaires précédentes pour trouver des idées pour le papier *Cross-lingual Semantic Similarity via Cross-Lingual Embeddings* publié en *2018 11th Fundamental and Applied IT Research Conference (Fair 2018)*.  
         
-    * J'ai assisté aux séminaires discutant de DEEP LEARNING et des derniers problèmes en NLP à l'équipe NLP-UET-VNU.
+    * Soutenir les aspects techniques pour les éditeurs de l'Université des langues et des études internationales (ULIS-VNU) et de l'Université d'ingénierie et de technologie (UET-VNU) pour créer des ensembles de données bilingues vietnamien-japonais en utilisant une application Web que j'ai développée.
+    * Soutien à la rédaction de rapports techniques pour un projet investi par le ministère de la science et de la technologie du Vietnam et dirigé par l'associé Prof. Dr Nguyen Phuong Thai.
+    * Participation aux séminaires de discussion sur l'apprentissage approfondi et les derniers problèmes en NLP dans l'équipe NLP-UET-VNU.
+    * Assister à la présentation d'articles lors de la conférence internationale de l'Association Pacifique pour la linguistique informatique (PACLING 2019). 
+
 * J'ai complété un cours de 40 heures sur Blockchain Tezos avec un certificat.
 ![](/Certificates/Tezos.jpg "Certificat Blockchain Tezos.")
 
