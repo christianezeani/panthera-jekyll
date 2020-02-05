@@ -11,11 +11,11 @@ order: 1
 #### 2018-2020
 * J'ai obtenu un diplôme de distinction de banchelor en informatique, GPA = 3.31/4.0, de l'Université d'ingénierie et de technologie - Université nationale du Vietnam (UET - VNU).
 * Ma thèse porte sur l'identification des paires de mots antonymes vietnamiens à partir d'autres relations sémantiques. J'ai utilisé de nombreuses techniques d'apprentissage automatique statistique et j'ai mené de nombreuses recherches dans des articles pertinents bien connus. 
-    * [*Lien vers le rapport de thèse*](){:target="_blank"}
+    * [*Lien vers le rapport de thèse*](https://drive.google.com/file/d/1PT8kAXZ1uPSEA3Tmh38V5i0E-Z30ZfW8/view?usp=sharing){:target="_blank"}
 
 * A partir de mon stage, j'ai remanié et développé un outil web qui aide les rédacteurs à éditer des phrases ou des mots bilingues japonais-vietnamien. Grâce à cet outil, les rédacteurs travaillent très efficacement. De plus, je travaille en collaboration avec d'autres étudiants qui jouent le rôle d'éditeurs pour améliorer l'outil. J'ai également extrait des informations significatives des projets en l'utilisant. Ensuite, j'analyse les données à l'aide de feuilles de calcul Google afin d'améliorer les performances de travail. Les liens suivants donnent plus de détails sur l'outil. 
     * [*Lien vers l'outil web*](http://ngulieu.dichmay.vn:8888/){:target="_blank"}   
-    * [*Lien vers le rapport de stage - orientation vers l'outil Web*](https://drive.google.com/file/d/1pcfHZEsMSg7HKkSC_BkELBJZeas5uZoi/view?usp=sharing){:target="_blank"}
+    * [*Lien vers le rapport de stage - orientation vers l'outil Web*](https://drive.google.com/file/d/1Y7XfaogJ1cKG2XfF1Vd-J0flC6VfjQtS/view?usp=sharing){:target="_blank"}
 
 <!-- * Je rejoins une classe de Big Data. -->
 * Dans l'équipe de traitement du langage naturel de l'UET-VNU, j'ai obtenu les résultats suivants. 
