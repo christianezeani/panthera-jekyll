@@ -7,6 +7,7 @@ order: 3
 ---
 # Profession
 * Information Technology (IT/Computer science): Confirmed level.
++ Technical skills: C# (WAP,...), Python (Flask, ...), Java (Android, ...), html/css, js, jquery (Meteor, Jekyll,...), Web services, C++, C, Excel, Word, Powerpoint, Google services (Gmail API, Google Cloud services, ...), ...  
 * Flexible, creative, curious, careful, hard-working, responsible.
 
 # Languages
