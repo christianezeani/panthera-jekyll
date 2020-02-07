@@ -8,8 +8,8 @@ order: 3
 # Profession
 * Information Technology (IT/Computer science): Confirmed level.
 * Technical skills: 
-++ Write reusable, testable, and efficient code.
-++ Good understanding of C# (WAP, ...), Python (Flask, ...), Machine Learning, Java (Android, ...), html/css, js, jquery (Meteor, Jekyll, ...),  server-side templating languages (Jinja 2, Blazejs), caching, Web services, C/C++, Excel, Word, Powerpoint, Google services (Gmail API, Google Cloud services, ...), debugging skills, SQL, sqlite, Mongodb. 
+    * Write reusable, testable, and efficient code. 
+    * Good understanding of C# (WAP, ...), Python (Flask, ...), Machine Learning, Java (Android, ...), html/css, js, jquery (Meteor, Jekyll, ...),  server-side templating languages (Jinja 2, Blazejs), caching, Web services (RESTful API), C/C++, Excel, Word, Powerpoint, Google services (Gmail API, Google Cloud services, ...), debugging skills, MySQL, sqlite, Mongodb. 
 * Flexible, creative, curious, careful, hard-working, responsible.
 
 # Languages
