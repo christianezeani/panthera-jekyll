@@ -7,7 +7,8 @@ order: 3
 ---
 # Chuyên môn
 * Khoa học máy tính (CNTT): Cấp độ được xác nhận.
-+ Kỹ năng kỹ thuật: C#, Python (Flask, ...), Machine Learning, Java (Android, ...), html/css, js, jquery (Meteor, Jekyll, ...), Web services, C++, C, Excel, Word, Powerpoint, services Google (Gmail API, Cloud services, ...), ...
+++ Viết mã có thể tái sử dụng, có thể kiểm tra và hiệu quả.
+++ Hiểu biết tốt về C # (WAP, ...), Python (Flask, ...), Machine Learning, Java (Android, ...), html / css, js, jquery (Meteor, Jekyll, ... ), ngôn ngữ tạo khuôn mẫu phía máy chủ (Jinja 2, Blazejs), bộ nhớ đệm, dịch vụ web, C / C ++, Excel, Word, Powerpoint, dịch vụ Google (Gmail API, dịch vụ đám mây của Google, ...), kỹ năng sửa lỗi, SQL, sqlite , Mongodb.
 * Linh hoạt, sáng tạo, tò mò, chu đáo, chăm chỉ, có trách nhiệm.
 
 # Ngôn ngữ

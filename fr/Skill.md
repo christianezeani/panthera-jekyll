@@ -7,7 +7,8 @@ order: 3
 ---
 # Profession
 * L'informatique (IT): Niveau confirmé.
-+ Compétences techniques: C#, Python (Flask, ...), Machine Learning, Java (Android, ...), html/css, js, jquery (Meteor, Jekyll, ...), Web services, C++, C, Excel, Word, Powerpoint, Google services (Gmail API, Cloud services, ...), ...
+++ Ecrire un code réutilisable, testable et efficace.
+++ Bonne compréhension de C# (WAP, ...), Python (Flask, ...), Machine Learning, Java (Android, ...), html/css, js, jquery (Meteor, Jekyll, ...), les langages de modélisation côté serveur (Jinja 2, Blazejs), la mise en cache, les services Web, C/C++, Excel, Word, Powerpoint, les services Google (Gmail API, Google Cloud services, ...), les compétences de débogage, SQL, sqlite, Mongodb.
 * Flexible, créatif, curieux, attentif, travailleur, responsable.
 
 # Langues
