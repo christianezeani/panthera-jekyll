@@ -7,9 +7,11 @@
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<script src="/assets/js/default.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
 <script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/default.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/assets/css/custom_header.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
 <link rel="stylesheet" href="{{ site.style | default: "theme" | prepend: "/assets/css/" | append: ".css" | relative_url }}">
@@ -32,8 +34,9 @@
     src="//{{ site.comments.isso }}/js/embed.min.js">
   </script>
 {% endif %}
-<header style="position: fixed; top: 0%;               
-               box-shadow: 0px 4px rgba(155, 155, 155, 0.2)">    
+<header style="position: fixed; transition: top 0.05s ease-in-out;
+               box-shadow: 0px 4px rgba(155, 155, 155, 0.2)"
+        class="nav-down">    
     <div class="row" style="width: 100%">  
       <div class="col-sm-7">       
         <h2><a href="{{ site.base_url[page.lang] }}">{{ site.t['title'][page.lang] }}</a></h2>
@@ -61,7 +64,7 @@
     </div>        
 
     <!-- Navigation -->
-    <div style="margin-top: 10px; width: 130%">
+    <div style="margin-top: 10px; width: 100%">
       <nav>                       
         {% assign pages=site.pages | where:"lang", page.lang | sort: 'order' %}
         {% for node in pages %}
