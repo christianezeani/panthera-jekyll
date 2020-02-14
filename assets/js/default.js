@@ -32,7 +32,7 @@ function hasScrolled() {
 
         lastScrollTop = st;
     }
-    else if ((st < lastScrollTop
+    else if ((st < lastScrollTopus
         && Math.abs(lastScrollTop - st) >= delta_nav_down) 
         || st == 0) {
         // Scroll Up
