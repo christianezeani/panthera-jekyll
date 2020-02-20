@@ -31,7 +31,7 @@ order: 3
         * Xây dựng các bộ dữ liệu chất lượng đóng vai trò rất quan trọng trong việc thử nghiệm các cách tiếp cận khác nhau cho bài báo *Bui Van Tan, Nguyen Phuong Thai, Dinh Khac Quy. Cross-lingual Semantic Similarity via Cross-Lingual Embeddings* được đăng tải tại hội nghị quốc gia *Fundamental and Applied IT Research Conference (Fair), 2018*. 
         * Tiến hành nghiên cứu trên các công bố nổi tiếng trước đây để tìm ra ý tưởng cho bài báo *Cross-lingual Semantic Similarity via Cross-Lingual Embeddings* được đăng tải tại hội nghị quốc gia *2018 11th Fundamental and Applied IT Research Conference (Fair 2018)*.
 
-    * Hỗ trợ các khía cạnh kỹ thuật cho các biên tập viên từ trường Đại học Ngoại Ngữ (ULIS-VNU) và Đại học Công Nghệ (UET-VNU) để tạo bộ dữ liệu song ngữ Việt-Nhật bằng cách sử dụng ứng dụng Web do tôi phát triển.
+    * Hỗ trợ các khía cạnh kỹ thuật cho các biên tập viên từ trường Đại học Ngoại ngữ (ULIS-VNU) và Đại học Công nghệ (UET-VNU) để tạo bộ dữ liệu song ngữ Việt-Nhật bằng cách sử dụng ứng dụng Web do tôi phát triển.
     * Hỗ trợ viết báo cáo kỹ thuật cho dự án do Bộ Khoa học và Công nghệ Việt Nam đầu tư và phụ trách bởi PGS. TS Nguyễn Phương Thái.
     * Tham dự các hội thảo thảo luận về deep learning và các vấn đề mới nhất về NLP trong nhóm NLP-UET-VNU.
     * Tham dự các bài thuyết trình bài báo (seminars) trong Hội nghị quốc tế *2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019)*.
