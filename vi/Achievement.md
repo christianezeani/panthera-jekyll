@@ -54,3 +54,4 @@ order: 3
 
 #### 2014-2015
 * Tôi đã nhận được giải nhì cuộc thi lập trình giải thuật cấp thành phố Hải Phòng của Việt Nam. Tôi cũng đã nhận một vài học bổng liên quan tới nó.
+[ ![](/Certificates/grade_12.jpg "Chứng chỉ giải thưởng.") ]

@@ -55,3 +55,4 @@ order: 1
 
 #### 2014-2015
 * J'ai obtenu le deuxième prix dans concours d'algorithmes de la ville de Hai Phong au Vietnam. J'ai aussi obtenu des bourses d'études dans ce domaine.
+[ ![](/Certificates/grade_12.jpg "Certificat du deuxième prix") ]
