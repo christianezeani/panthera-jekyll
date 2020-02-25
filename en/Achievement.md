@@ -55,7 +55,7 @@ order: 1
 
 #### 2014-2015
 * I got the second prize in the contest of algorithms of Hai Phong city in Vietnam. I also got some scholarships related to it.
-[ ![](/Certificates/grade_12.jpg "Certificate of the prize) ]
+![](/Certificates/grade_12.jpg "Certificate of the prize)
 
 
 

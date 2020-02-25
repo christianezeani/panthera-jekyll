@@ -47,11 +47,11 @@ order: 3
 
 #### 2016-2017
 * Tôi đã hoàn thành một khóa đào tạo phát triển ứng dụng Android của ITPlus với một chứng chỉ. Sau đó, tôi đã tham gia một khóa thực tập kéo dài 4 tháng về phát triển ứng dụng Android trong 1 công ty outsource.
-[ ![](/Certificates/android.jpg "Chứng chỉ khóa học phát triển ứng dụng Android của ITPlus.") ]
+![](/Certificates/android.jpg "Chứng chỉ khóa học phát triển ứng dụng Android của ITPlus.")
 
 #### 2015-2016
 * Tôi nhận được một suất học bổng khuyến khích học tập của trường UET-VNU.
 
 #### 2014-2015
 * Tôi đã nhận được giải nhì cuộc thi lập trình giải thuật cấp thành phố Hải Phòng của Việt Nam. Tôi cũng đã nhận một vài học bổng liên quan tới nó.
-[ ![](/Certificates/grade_12.jpg "Chứng chỉ giải thưởng.") ]
+![](/Certificates/grade_12.jpg "Chứng chỉ giải thưởng.")
