@@ -14,6 +14,6 @@ order: 3
 # Ngôn ngữ
 * Tiếng mẹ đẻ: tiếng việt
 * Tiếng Anh: IELTs (12/2019) - 6.0/9.0, B2 CERF (Nghe: 6.0, Đọc: 6.5, Nói: 6.5, Viết: 5.5).
-* Tiếng Pháp: DELF B1 (11/2019) - 62/100, B1 CERF (Nghe: 9,5, Đọc: 20, Nói: 15, Viết: 17,5).
+* Tiếng Pháp: DELF B1 (11/2019) - 62/100, B1 CERF (Nghe: 9.5, Đọc: 20, Nói: 17.5, Viết: 15).
 
 
