@@ -14,7 +14,7 @@ order: 3
 
 # Languages
 * Native language: Vietnamese
-* English: Ielts (12/2019) - 6.0/9.0, B2 CERF (Listening: 6.0, Reading: 6.5, Speaking: 6.5, Writing: 5.5).
-* French: DELF (11/2019) - 62/100, B1 CERF.
+* English: IELTs (12/2019) - 6.0/9.0, B2 CERF (Listening: 6.0, Reading: 6.5, Speaking: 6.5, Writing: 5.5).
+* French: DELF B1 (11/2019) - 62/100, B1 CERF.
 
 
