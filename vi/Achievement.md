@@ -13,19 +13,19 @@ order: 3
 * Luận văn tốt nghiệp của tôi tập trung vào việc xác định các cặp từ trái nghĩa tiếng Việt từ các quan hệ ngữ nghĩa khác. Tôi đã sử dụng nhiều kỹ thuật học máy thống kê và thực hiện rất nhiều nghiên cứu trong các bài báo nổi tiếng trước đó.
     * [*Đường dẫn tới luận văn*](https://drive.google.com/file/d/1PT8kAXZ1uPSEA3Tmh38V5i0E-Z30ZfW8/view?usp=sharing){:target="_blank"} 
 
-* Kể từ kì thực tập tại trường, tôi đã và đang tiếp tục tái cấu trúc mã nguồn và phát triển một công cụ web giúp những người biên tập chỉnh sửa những câu, từ song ngữ tiếng Việt-Nhật. Nhờ vào công cụ này, người biên tập đã làm việc hết sức hiệu quả. Hơn nữa, tôi cộng tác với những sinh viên khác trong vai trò là người biên tập để cải thiện tính năng của công cụ. Tôi cũng đã trích xuất ra những thông tin thống kê ý nghĩa từ các dự án bằng cách dùng nó. Sau đó, tôi phân tích dữ liệu dùng google spreadsheets để  tăng hiệu suất công việc. Những chi tiết cụ thể hơn về công cụ nằm ở các đường dẫn sau.
-    * [*Đường dẫn tới công cụ soạn thảo*](http://ngulieu.dichmay.vn:8888/){:target="_blank"} 
-    * [*Đường dẫn tới báo cáo thục tập - hướng dẫn sử dụng công cụ soạn thảo*](https://drive.google.com/file/d/1Y7XfaogJ1cKG2XfF1Vd-J0flC6VfjQtS/view?usp=sharing){:target="_blank"}
+* Kể từ kì thực tập tại trường, tôi đã và đang tiếp tục tái cấu trúc mã nguồn và phát triển một ứng dụng web giúp những người biên tập chỉnh sửa những câu, từ song ngữ tiếng Việt-Nhật. Nhờ vào ứng dụng này, người biên tập đã làm việc hết sức hiệu quả. Hơn nữa, tôi cộng tác với những sinh viên khác trong vai trò là người biên tập để cải thiện tính năng của ứng dụng. Tôi cũng đã trích xuất ra những thông tin thống kê ý nghĩa từ các dự án bằng cách dùng ứng dụng này. Sau đó, tôi phân tích dữ liệu dùng google spreadsheets để  tăng hiệu suất công việc. Những chi tiết cụ thể hơn về ứng dụngnằm ở các đường dẫn sau.
+    * [*Đường dẫn tới ứng dụng soạn thảo*](http://ngulieu.dichmay.vn:8888/){:target="_blank"} 
+    * [*Đường dẫn tới báo cáo thục tập - hướng dẫn sử dụng ứng dụng soạn thảo*](https://drive.google.com/file/d/1Y7XfaogJ1cKG2XfF1Vd-J0flC6VfjQtS/view?usp=sharing){:target="_blank"}
 
 <!-- * Tôi đang tham gia một lớp học Big Data. -->
 * Trong nhóm xử lý ngôn ngữ tự nhiên ở trường UET-VNU, tôi đã có được các thành tích sau.
     * Đóng góp trong việc xây dựng một trang web giới thiệu nhóm nghiên cứu NLP-UET-VNU.  
       [*Đường dẫn tới trang giới thiệu nhóm nghiên cứu NLP-UET-VNU*](https://uetnlp.github.io/){:target="_blank"}
     * Hỗ trợ nhóm khai thác và xử lý dữ liệu có sẵn trong các websites để xây dựng các tệp dữ liệu song ngữ Nhật-Việt.
-    * Xây dựng website dùng nền tảng Flask với ngôn ngữ lập trình Python. Úng dụng được dùng một máy chủ dịch của nhóm NLP-UET-VNU để dịch văn bản và dịch tài liệu, tập trung cho cặp ngôn ngữ Nhật-Việt, hô trợ cặp Anh-Việt.
+    * Xây dựng website dùng nền tảng Flask với ngôn ngữ lập trình Python. Úng dụng tận dụng mô hình dịch máy được phát triển bởi nhóm NLP-UET-VNU để dịch văn bản và dịch tài liệu, tập trung cho cặp ngôn ngữ Nhật-Việt, hỗ trợ cặp Anh-Việt.
     <!-- [Link app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     <!-- [Link report - guidances of the app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
-    * Đóng góp nhiều trong việc xây dựng một ứng dụng "extension" để dịch một trang từ Tiếng Anh sang Tiếng Việt hoặc thêm phụ đề tiếng Việt cho các videos giảng dạy trên [trang Coursera](https://www.coursera.org/){:target="_blank"}. Ứng dụng được dùng máy chủ dịch của nhóm NLP-UET-VNU. Tôi dùng javascript/html/css trong phia máy khách và python-Flask trong phía máy chủ.
+    * Đóng góp nhiều trong việc xây dựng một ứng dụng "Chrome extension" để dịch một trang từ Tiếng Anh sang Tiếng Việt hoặc thêm phụ đề tiếng Việt cho các videos giảng dạy trên [trang Coursera](https://www.coursera.org/){:target="_blank"}. Ứng dụng được dùng máy chủ dịch của nhóm NLP-UET-VNU. Tôi dùng javascript/html/css trong phia máy khách và python-Flask trong phía máy chủ.
     * Tôi là một trong số các tác giả của các bài báo sau.
         * Nghiên cứu và thử nghiệm các bài báo nổi tiếng trước đây để đưa ra những so sánh có giá trị làm nổi bật các cải tiến cho bài báo *Bui Van Tan, Nguyen Phuong Thai, Pham Van Lam, Dinh Khac Quy. Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features* được đăng tải tại hội nghị quốc tế *2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019)*. 
         * Xây dựng các bộ dữ liệu chất lượng đóng vai trò rất quan trọng trong việc thử nghiệm các cách tiếp cận khác nhau cho bài báo *Bui Van Tan, Nguyen Phuong Thai, Dinh Khac Quy. Cross-lingual Semantic Similarity via Cross-Lingual Embeddings* được đăng tải tại hội nghị quốc gia *Fundamental and Applied IT Research Conference (Fair), 2018*. 
