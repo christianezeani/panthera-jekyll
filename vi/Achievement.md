@@ -42,16 +42,16 @@ order: 3
 * Nhóm chúng tôi đã giành giải nhì trong cuộc thi của lớp trí tuệ nhân tạo.
 ![](/Certificates/AI.jpg "Chứng nhận giải nhì trong cuộc thi của lớp Trí tuệ nhân tạo.")
 
-* Tôi đã làm việc trong nhóm 3 người trong một dự án về kiểm thử tự động dùng C#. Sau đó, dựa trên dự án này, tôi đã đạt được giải nhì trong cuộc thi sinh viên nghiên cứu khoa học của khoa CNTT UET-VNU với một chứng chỉ.
+* Tôi đã làm việc trong nhóm 3 người trong một dự án về kiểm thử tự động dùng C#. Sau đó, dựa trên dự án này, tôi đã đạt được giải nhì trong cuộc thi sinh viên nghiên cứu khoa học của khoa CNTT FIT-UET-VNU với một chứng chỉ.
 ![](/Certificates/Csharp.jpg "Chứng chỉ trong cuộc thi sinh viên nghiên cứu khoa học của khoa CNTT UET-VNU.")
 
 #### 2016-2017
-* Tôi đã hoàn thành một khóa đào tạo phát triển ứng dụng Android của ITPlus với một chứng chỉ. Sau đó, tôi đã tham gia một khóa thực tập kéo dài 4 tháng về phát triển ứng dụng Android trong 1 công ty outsource.
+* Tôi đã hoàn thành một khóa đào tạo phát triển ứng dụng Android của ITPlus với một chứng chỉ. Sau đó, tôi đã hoàn thành một khóa thực tập kéo dài 4 tháng về phát triển ứng dụng Android trong 1 công ty outsource.
 ![](/Certificates/android.jpg "Chứng chỉ khóa học phát triển ứng dụng Android của ITPlus.")
 
 #### 2015-2016
 * Tôi nhận được một suất học bổng khuyến khích học tập của trường UET-VNU.
 
 #### 2014-2015
-* Tôi đã đạt được giải nhì cuộc thi lập trình giải thuật cấp thành phố Hải Phòng của Việt Nam. Tôi cũng đã nhận một vài học bổng liên quan tới nó.
+* Tôi đã đạt được giải nhì cuộc thi tin học cấp thành phố Hải Phòng của Việt Nam. Tôi cũng đã nhận một vài học bổng liên quan tới nó.
 ![](/Certificates/grade_12.jpg "Chứng chỉ giải thưởng.")

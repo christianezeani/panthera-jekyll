@@ -47,7 +47,7 @@ order: 1
 ![](/Certificates/Csharp.jpg "Certificate in the Scientific Research Conference at the Faculty Information Technology UET-VNU.")
 
 #### 2016-2017
-* I completed a course about Android application development of ITPlus with a certificate. Afterward, I joined an internship during four months about Android application development in a company.
+* I completed a course about Android application development of ITPlus with a certificate. Afterward, I completed an internship during four months about Android application development in a company.
 ![](/Certificates/android.jpg "Certificate Android application development of ITPlus.")
 
 #### 2015-2016

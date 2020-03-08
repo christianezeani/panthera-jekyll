@@ -47,12 +47,12 @@ order: 1
 ![](/Certificates/Csharp.jpg "Certificat dans concours de recherche scientifique de la faculté de technologie de l'information UET-VNU.")
 
 #### 2016-2017
-* J'ai complété un cours sur le développement d'applications Android de ITPlus avec un certificat. Par la suite, j'ai suivi un stage de quatre mois du développement d'applications Android en entreprise.
+* J'ai complété un cours sur le développement d'applications Android de ITPlus avec un certificat. Par la suite, j'ai complété un stage de quatre mois du développement d'applications Android en entreprise.
 ![](/Certificates/android.jpg "Certificat de développement d'applications Android de ITPlus.")
 
 #### 2015-2016
 * J'ai eu une bourse d'encouragement dans mon école, UET-VNU.
 
 #### 2014-2015
-* J'ai obtenu le deuxième prix dans concours d'algorithmes de la ville de Hai Phong au Vietnam. J'ai aussi obtenu des bourses d'études dans ce domaine.
+* J'ai obtenu le deuxième prix dans concours d'Informatique de la ville de Hai Phong au Vietnam. J'ai aussi obtenu des bourses d'études dans ce domaine.
 ![](/Certificates/grade_12.jpg "Certificat du deuxième prix.")
