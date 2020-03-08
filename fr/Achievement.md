@@ -22,10 +22,10 @@ order: 1
     * Contribue à la construction du site Web d'introduction pour l'équipe de recherche NLP-UET-VNU.  
       [*Lien vers l'introduction du site de l'équipe de recherche NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"} 
     * Aide l'équipe à explorer et prétraiter les données des sites Web pour construire des ensembles de données bilingues vietnamien-japonais.
-    * Construire un site web en utilisant le framework Flask avec une programmation Python. Il utilise un modèle de traduction dévéloppé par l'équipe NLP-UET-VNU[*NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"} pour traduire des phrases et des documents en se concentrant sur la paire de langues vietnamien-japonais et en supportant le vietnamien-anglais. 
+    * Construire un site web en utilisant le framework Flask avec une programmation Python. Il utilise un modèle de traduction dévéloppé par l'équipe [*NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"} pour traduire des phrases et des documents en se concentrant sur la paire de langues vietnamien-japonais et en supportant le vietnamien-anglais. 
     <!--[Link app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     <!--[Lien de rapport du app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
-    * Contribuer fortement à la construction d'une Chrome extension pour traduire une page de l'anglais au vietnamien et ajouter des sous-titres vietnamiens aux vidéos d'enseignement de [la page Coursera](https://www.coursera.org/){:target="_blank"}. Il utilise un modèle de traduction dévéloppé par l'équipe NLP-UET-VNU[*NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"}. J'utilise javascript/html/css du côté client et python-Flask du côté serveur. 
+    * Contribuer fortement à la construction d'une Chrome extension pour traduire une page de l'anglais au vietnamien et ajouter des sous-titres vietnamiens aux vidéos d'enseignement de [la page Coursera](https://www.coursera.org/){:target="_blank"}. Il utilise un modèle de traduction dévéloppé par l'équipe [*NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"}. J'utilise javascript/html/css du côté client et python-Flask du côté serveur. 
     * Je suis l'un des auteurs des articles suivants. 
         * Étudier et expérimenter des publications antérieures bien connues afin de faire des comparaisons valables qui mettent en évidence les améliorations pour le papier "Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features" publié en *2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019)*.
         * Construire des ensembles de données de qualité qui jouent un rôle très important dans l'expérimentation de différentes approches pour le papier *"n Effective Coverage Approach for Attention-based Neural Machine Translation" publié en *2019 6th NAFOSTED Conference on Information and Computer Science (NICS 2019)*.
@@ -33,7 +33,7 @@ order: 1
         
     * Soutenir les aspects techniques pour les éditeurs de l'Université des langues et des études internationales (ULIS-VNU) et de l'Université d'ingénierie et de technologie (UET-VNU) pour créer des ensembles de données bilingues vietnamien-japonais en utilisant une application Web que j'ai développée.
     * Soutien à la rédaction de rapports techniques pour un projet investi par le ministère de la science et de la technologie du Vietnam et dirigé par l'associé Prof. Dr Nguyen Phuong Thai.
-    * Participation aux séminaires de discussion sur l'apprentissage approfondi et les derniers problèmes en NLP dans l'équipe NLP-UET-VNU[*NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"}.
+    * Participation aux séminaires de discussion sur l'apprentissage approfondi et les derniers problèmes en NLP dans l'équipe [*NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"}.
     * Assisté à la présentation d'articles lors de la conférence internationale de l'Association Pacifique pour la linguistique informatique (PACLING 2019). 
 
 * J'ai complété un cours de 40 heures sur Blockchain Tezos avec un certificat.
@@ -44,7 +44,7 @@ order: 1
 ![](/Certificates/AI.jpg "Certificat deuxième prix dans concours de classe en classe d'intelligence artificielle.")
 
 * J'ai travaillé dans une équipe de trois personnes dans un projet sur les tests automatisés en utilisant c#. Par la suite, sur la base de ce projet, j'ai obtenu le 2ème prix au concours de recherche scientifique de la faculté de technologie de l'information UET-VNU avec un certificat.
-![](/Certificates/Csharp.jpg "Certificat dans concours de recherche scientifique de la faculté de technologie de l'information c.")
+![](/Certificates/Csharp.jpg "Certificat dans concours de recherche scientifique de la faculté de technologie de l'information UET-VNU.")
 
 #### 2016-2017
 * J'ai complété un cours sur le développement d'applications Android de ITPlus avec un certificat. Par la suite, j'ai suivi un stage de quatre mois du développement d'applications Android en entreprise.
