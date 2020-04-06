@@ -1,15 +1,19 @@
-.nav-up {
-    top: -100%;
-}
-
-.nav-down {
-    top: 0;
-}
-
 .navbar {
   background-color: #46A5E5;         
   border-radius: 0%;   
   font-size: 16px;
+}
+
+.navbar ul {  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+    overflow: hidden;
+}
+
+.navbar li  {    
+    float: left;
+    border-right:0px solid ;
 }
 
 .navbar li a {
@@ -32,6 +36,10 @@
   background-color: #46A5E5;
 }
 
+.navbar .icon-bar {
+  background-color: #ffffff;
+}
+
 .navbar #btn_menu:hover {
   color: rgb(204, 204, 204);
 }
@@ -42,10 +50,12 @@
   color: rgb(241, 241, 241);
 }
 
-#ul_lang {
-  font-size: 16px;
+.nav-up {
+    top: -100%;
 }
 
-#div_content {
-  font-size: 16px;
+.nav-down {
+    top: 0;
 }
+
+/*  */
