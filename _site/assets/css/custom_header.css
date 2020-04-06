@@ -32,10 +32,6 @@
   background-color: #46A5E5;
 }
 
-.navbar .icon-bar {
-  background-color: #ffffff;
-}
-
 .navbar #btn_menu:hover {
   color: rgb(204, 204, 204);
 }
@@ -44,7 +40,7 @@
   float: left; 
   width: 50px; 
   color: rgb(241, 241, 241);
-} 
+}
 
 #ul_lang {
   font-size: 16px;
