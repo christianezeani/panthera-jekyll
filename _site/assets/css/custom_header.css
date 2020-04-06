@@ -44,4 +44,12 @@
   float: left; 
   width: 50px; 
   color: rgb(241, 241, 241);
+} 
+
+#ul_lang {
+  font-size: 16px;
+}
+
+#div_content {
+  font-size: 16px;
 }
