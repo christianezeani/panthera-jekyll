@@ -3,15 +3,15 @@ description: "PROFILE DINH KHAC QUY"
 permalink: /:title/
 encoding: utf-8
 base_url:
-    English: /
-    Vietnamese: /vi/Introduction/
-    Français: /fr/Introduction/
+    En: /
+    Vi: /vi/Introduction/
+    Fr: /fr/Introduction/
 
 t:
     title:
-        English: "PROFILE DINH KHAC QUY"
-        Vietnamese: "HỒ SƠ ĐINH KHẮC QUÝ"        
-        Français: "PROFILE DINH KHAC QUY"
+        En: "PROFILE DINH KHAC QUY"
+        Vi: "HỒ SƠ ĐINH KHẮC QUÝ"        
+        Fr: "PROFILE DINH KHAC QUY"
 
 # exclude_from_localizations: ["assets", "CNAME"]
 # exclude_from_localizations: ["javascript", "images", "css", "xml"]

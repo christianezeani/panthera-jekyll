@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Career Plan"
-lang: English
+lang: En
 ref: Career_plan
 order: 5
 ---

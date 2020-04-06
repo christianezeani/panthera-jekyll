@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Kho dự án"
-lang: Vietnamese
+lang: Vi
 ref: Project_Repository
 order: 4
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: "Skills"
 ref: Skill
-lang: English
+lang: En
 order: 3
 ---
 # Profession

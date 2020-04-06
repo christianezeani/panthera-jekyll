@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Projet Référentiel"
-lang: Français
+lang: Fr
 ref: Project_Repository
 order: 4
 ---

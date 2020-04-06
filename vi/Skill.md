@@ -2,7 +2,7 @@
 layout: page
 title: "Các kỹ năng"
 ref: Skill
-lang: Vietnamese
+lang: Vi
 order: 3
 ---
 # Chuyên môn

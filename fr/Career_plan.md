@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Plan de carrière"
-lang: Français
+lang: Fr
 ref: Career_plan
 order: 5
 ---
