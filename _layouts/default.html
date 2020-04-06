@@ -7,12 +7,18 @@
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<!-- <script src="/assets/js/bootstrap.min.js"></script> -->
+<!-- <link rel="stylesheet" href="/assets/css/bootstrap.min.css" /> -->
+<!-- <script src="/assets/js/jquery-3.2.1.min.js"></script> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/assets/js/default.js"></script>
-<script src="/assets/js/lib_js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/assets/css/custom_header.css">
-<link rel="stylesheet" href="/assets/css/lib_css/bootstrap.min.css">
 <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
 <link rel="stylesheet" href="{{ site.style | default: "theme" | prepend: "/assets/css/" | append: ".css" | relative_url }}">
 
@@ -38,14 +44,14 @@
                box-shadow: 0px 4px rgba(155, 155, 155, 0.2);"
         class="nav-down">    
     <div class="row" style="width: 100%;">  
-      <div class="col-sm-7">       
+      <div class="col-md-7">       
         <h2><a href="{{ site.base_url[page.lang] }}">{{ site.t['title'][page.lang] }}</a></h2>
       </div>
       <!-- {% if pages.size == 0 %} -->
         <!-- {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %} -->
       <!-- {% endif %} -->
 
-      <div class="col-sm-5" style="float: right;">
+      <div class="col-md-5" style="float: right;">
         <!-- Start define languages options -->    
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}  
         <div class="lang" style="margin-top: 7px;">
@@ -64,11 +70,10 @@
     </div>        
 
     <!-- Navigation -->
-    <div style="margin-top: 5px; width: 100%">
+    <div style="margin-top: 5px; margin-left: 50px;">
       <nav class="navbar">        
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" 
+          <!-- Brand and toggle get grouped for better mobile display -->          
+          <button type="button" class="navbar-toggle collapsed" 
              data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" 
              aria-expanded="false" id="btn_menu">
               <!-- <span class="sr-only">Toggle navigation</span>
@@ -76,16 +81,15 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span> -->
               Menu
-            </button>
-          </div>
+          </button>          
       
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul> 
+            <ul class="nav navbar-nav"> 
                 {% assign pages=site.pages | where:"lang", page.lang | sort: 'order' %}
                 {% for node in pages %}
                   {% if node.title %}
-                    <li>
+                    <li class="nav-item">
                       <a href="{{ node.url }}">{{ node.title }}</a>
                     </li>
                   {% endif %}
