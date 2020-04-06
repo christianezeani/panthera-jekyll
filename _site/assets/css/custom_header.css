@@ -41,9 +41,11 @@ color: rgb(204, 204, 204);
 }
 
 .navbar #btn_menu {
-float: left; 
-width: 50px; 
-color: rgb(241, 241, 241);
+  float: left; 
+  width: 50px; 
+  color: rgb(241, 241, 241);
+  border: none;
+  outline: none;
 }
 
 #ul_lang {
