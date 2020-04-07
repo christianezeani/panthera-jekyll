@@ -44,6 +44,7 @@ color: rgb(204, 204, 204);
   float: left; 
   width: 50px; 
   color: rgb(241, 241, 241);
+  margin-bottom: 10px;
   border: none;
   outline: none;
 }
