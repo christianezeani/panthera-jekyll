@@ -2,7 +2,7 @@
 layout: page
 title: "Introduction"
 ref: Introduction
-lang: En
+lang: English
 permalink: "/"
 order: 0
 ---

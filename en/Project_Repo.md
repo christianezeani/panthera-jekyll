@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Project Repository"
-lang: En
+lang: English
 ref: Project_Repository
 order: 4
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: "Introduction"
 ref: Introduction
-lang: Fr
+lang: French
 order: 0
 ---
 # Introduce

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Dự định nghề nghiệp"
-lang: Vi
+lang: Vietnamese
 ref: Career_plan
 order: 5
 ---

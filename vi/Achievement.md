@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Các thành tích"
-lang: Vi
+lang: Vietnamese
 ref: Achievement
 order: 3
 ---

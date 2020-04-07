@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Achievements"
-lang: En
+lang: English
 ref: Achievement
 order: 1
 ---

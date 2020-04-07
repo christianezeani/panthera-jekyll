@@ -51,19 +51,7 @@
       <!-- {% endif %} -->
 
       <div class="col-md-5" style="float: right;">
-        <!-- Start define languages options -->    
-        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}  
-        <div class="lang" style="margin-top: 7px;">
-          <ul style="display: inline; color: yellow;"
-              id="ul_lang">
-            {% for node in pages %}
-              <li class="nav-item d-inline-flex align-items-center mr-2" 
-                style="display: inline; margin-right: 5px;">
-                <a class="{{ node.lang }}" 
-                  href="{{ node.url }}">{{ node.lang }}</a>
-              </li>
-            {% endfor %}
-          </ul>
+        <!-- Start define languages options -->            
         </div>    
       </div>
       <!-- End -->
@@ -95,7 +83,16 @@
                   {% endif %}
                 {% endfor %}                                                 
             </ul>
-          </div><!-- /.navbar-collapse -->        
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}            
+            <ul class="nav navbar-nav navbar-right" id="ul_lang">
+                {% for node in pages %}
+                  <li class="nav-item">
+                    <a class="{{ node.lang }}" 
+                      href="{{ node.url }}">{{ node.lang }}</a>
+                  </li>
+                {% endfor %}
+            </ul>            
+          </div><!-- /.navbar-collapse -->                        
       </nav>
       {% if site.icons %}
         <nav>

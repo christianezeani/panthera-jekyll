@@ -7,9 +7,9 @@
 }
 
 .navbar {
-background-color: #46A5E5;         
-border-radius: 0%;   
-font-size: 16px;
+  background-color: #46A5E5;         
+  border-radius: 0%;   
+  font-size: 16px;
 }
 
 .navbar li a {
@@ -19,25 +19,25 @@ font-size: 16px;
 }
 
 .navbar li a:hover {
-color: rgb(122, 202, 255);
-background-color: #46A5E5;
+  color: rgb(122, 202, 255);
+  background-color: #46A5E5;
 }
 
 .navbar li a.active {   
-color: rgb(122, 202, 255);
+  color: rgb(122, 202, 255);
 }
 
 .navbar #log_out:hover {
-color: rgb(122, 202, 255);
-background-color: #46A5E5;
+  color: rgb(122, 202, 255);
+  background-color: #46A5E5;
 }
 
 .navbar .icon-bar {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .navbar #btn_menu:hover {
-color: rgb(204, 204, 204);
+  color: rgb(204, 204, 204);
 }
 
 .navbar #btn_menu {
@@ -50,9 +50,11 @@ color: rgb(204, 204, 204);
 }
 
 #ul_lang {
-font-size: 16px;
+  font-size: 16px;
+  color: yellow;  
+  float: right; 
 }
 
 #div_content {
-font-size: 16px;
+  font-size: 16px;
 }

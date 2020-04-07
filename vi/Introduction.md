@@ -2,7 +2,7 @@
 layout: page
 title: "Giới thiệu"
 ref: Introduction
-lang: Vi
+lang: Vietnamese
 order: 0
 ---
 # Giới thiệu

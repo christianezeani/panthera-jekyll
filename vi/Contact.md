@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Liên hệ"
-lang: Vi
+lang: Vietnamese
 ref: Contact
 order: 7
 ---
