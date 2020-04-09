@@ -10,7 +10,7 @@ base_url:
 t:
     title:
         English: "PROFILE DINH KHAC QUY"
-        Vitnamese: "HỒ SƠ ĐINH KHẮC QUÝ"        
+        Vietnamese: "HỒ SƠ ĐINH KHẮC QUÝ"        
         French: "PROFILE DINH KHAC QUY"
 
 # exclude_from_localizations: ["assets", "CNAME"]
