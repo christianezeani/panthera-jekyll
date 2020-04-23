@@ -9,7 +9,7 @@ order: 3
 * L'informatique (IT): Niveau confirmé. 
     * Ecrire un code réutilisable, testable et efficace.
     * Bonne compréhension de C# (WAP, ...), Python (Flask, ...), Machine Learning, Java (Android, ...), html/css, js, jquery (Meteor, Jekyll, ...), les langages de modélisation côté serveur (Jinja 2, Blazejs), la mise en cache, les services Web (RESTful API), C/C++, Excel, Word, Powerpoint, les services Google (Gmail API, Google Cloud services, ...), les compétences de débogage, SQL, sqlite, Mongodb.
-* Flexible, créatif, curieux, attentif, travailleur, responsable.
+* Esprit critique, capacité de résolution de problèmes et d'analyse, compétences en matière de gestion de projets, compétences en matière de rédaction et de présentation de rapports, compétences interpersonnelles, autodidacte, responsable, travailleur.
 
 # Langues
 * Langue maternelle : Vietnamien

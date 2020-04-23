@@ -84,14 +84,14 @@
                 {% endfor %}                                                 
             </ul>
             {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}            
-            <ul class="nav navbar-nav navbar-right" id="ul_lang">
+            <!-- <ul class="nav navbar-nav navbar-right" id="ul_lang">
                 {% for node in pages %}
                   <li class="nav-item">
                     <a class="{{ node.lang }}" 
                       href="{{ node.url }}">{{ node.lang }}</a>
                   </li>
                 {% endfor %}
-            </ul>            
+            </ul>             -->
           </div><!-- /.navbar-collapse -->                        
       </nav>
       {% if site.icons %}

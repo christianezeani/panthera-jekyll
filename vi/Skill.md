@@ -9,7 +9,7 @@ order: 3
 * Khoa học máy tính (CNTT): Cấp độ được xác nhận. 
     * Viết mã có thể tái sử dụng, có thể kiểm tra và hiệu quả.
     * Hiểu biết tốt về C # (WAP, ...), Python (Flask, ...), Machine Learning, Java (Android, ...), html/css, js, jquery (Meteor, Jekyll, ... ), ngôn ngữ tạo khuôn mẫu phía máy chủ (Jinja 2, Blazejs), bộ nhớ đệm, dịch vụ web (RESTful API), C/C ++, Excel, Word, Powerpoint, dịch vụ Google (Gmail API, dịch vụ đám mây của Google, ...), kỹ năng sửa lỗi, SQL, sqlite , Mongodb.
-* Linh hoạt, sáng tạo, tò mò, chu đáo, chăm chỉ, có trách nhiệm.
+* Tư duy phản biện, kỹ năng giải quyết và phân tích vấn đề, kỹ năng quản lý dự án, viết báo cáo và kỹ năng thuyết trình, kỹ năng tương tác làm việc nhóm, tự học, có trách nhiệm, chăm chỉ.
 
 # Ngôn ngữ
 * Tiếng mẹ đẻ: tiếng việt
