@@ -9,7 +9,7 @@ order: 1
 ---
 
 #### 2018-2020
-* I graduated with a distinction Computer Science Bachelor degree, GPA = 3.31/4.0, from The University of Engineering and Technology - Vietnam National University (UET - VNU).
+* I graduated with a Computer Science Bachelor Degree with Distinction, GPA = 3.31/4.0, from The University of Engineering and Technology - Vietnam National University (UET - VNU).
 * My thesis focuses on identifying Vietnamese antonymous word-pairs from other semantic relations. I used many statistical machine learning techniques and conducted a lot of researches in previously well-known relevant papers. 
     * [*Link to the thesis report*](https://drive.google.com/file/d/1PT8kAXZ1uPSEA3Tmh38V5i0E-Z30ZfW8/view?usp=sharing){:target="_blank"} 
 
