@@ -9,7 +9,7 @@ order: 0
 # Introduce
 
 * My name is Dinh Khac Quy. I was born in 1997, in Vietnam.  
-* I graduated with a distinction Computer Science Bachelor degree at The University of Engineering and Technology - Vietnam National University (UET - VNU).
+* I graduated with a Computer Science Bachelor Degree with Distinction at The University of Engineering and Technology - Vietnam National University (UET - VNU).
 * I am very interested in Big Data, Data Science, Data Analytics. By using those skills, I can give people meaningful insights that support them in making decisions and getting great values back. Therefore, I am always researching for opportunities to improve my skills in these fields, especially the internships in good companies working on them.  
 * I am hard-working and responsible.
     
