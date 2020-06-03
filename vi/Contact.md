@@ -11,3 +11,4 @@ order: 7
 ### Thông tin
 * Gmail: Moduledk@gmail.com
 * Facebook: https://www.facebook.com/Moduledk
+* Blog: https://khacquydinh.blogspot.com/
