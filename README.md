@@ -102,12 +102,6 @@ panthera-jekyll currently supports the following icons:
 
 * [FontAwesome](https://fontawesome.com) (version 5.9.0)
 
-Additionally, you may choose to set the following optional variables:
-
-```yml
-google_analytics: [Your Google Analytics tracking ID]
-```
-
 ### Stylesheet
 
 If you'd like to add your own custom styles:
