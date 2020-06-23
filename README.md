@@ -54,6 +54,16 @@ subtitle: [A brief subtitle or job title]
 description: [A short description of your site's purpose]
 ```
 
+To configure the left side set the following variables as shown below:
+
+```yml
+left_side:
+  background_image: [Absolute or relative image url]
+  background_color: [CSS background color, e.g. "#F00". We strongly recommend quoting this value. Don't worry about the transparency of the background, we've taken care of that.]
+  close_button_color: [CSS background color, e.g. "#F00". We strongly recommend quoting this value.]
+  text_color: [CSS background color, e.g. "#F00". We strongly recommend quoting this value.]
+```
+
 To configure side menu, set the following variables:
 
 ```yml

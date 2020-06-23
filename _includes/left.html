@@ -1,4 +1,23 @@
-<section class="pan-layout-left">
+<section
+  class="pan-layout-left"
+  {% if site.left_side %}
+  style="
+  {% if site.left_side.background_image %}
+  background-image: url({{ site.left_side.background_image }});
+  {% endif %}
+  {% if site.left_side.text_color %}
+  color: {{ site.left_side.text_color }};
+  {% endif %}
+  "
+  {% endif %}
+>
+  <section
+    class="pan-layout-left__overlay"
+    {% if site.left_side %}
+    style="{% if site.left_side.background_color %}background-color: {{ site.left_side.background_color }} !important;{% endif %}"
+    {% endif %}
+  ></section>
+
   <div class="pan-layout-left__top">
     <div class="pan-layout-left__avatar">
       {% if site.github.owner_gravatar_url %}
@@ -50,7 +69,12 @@
     </div>
   </div>
 
-  <div class="pan-layout-left__close">
+  <div
+    class="pan-layout-left__close"
+    {% if site.left_side %}
+    style="{% if site.left_side.close_button_color %}color: {{ site.left_side.close_button_color }} !important;{% endif %}"
+    {% endif %}
+  >
     <i class="fa fa-fw fa-times"></i>
   </div>
 </section>
