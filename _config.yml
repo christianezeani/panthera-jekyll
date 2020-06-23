@@ -35,3 +35,4 @@ comments:                    # embed disqus or isso comments
 plugins:
  - jekyll-feed
  - jekyll-default-layout
+ - jekyll-seo-tag
