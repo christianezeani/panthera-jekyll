@@ -17,4 +17,18 @@
     padding: 0px 20px;
   }
 
+  &__copyright {
+    display: inline-block;
+    border-right: 1px solid #CCC;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  @media (min-width: pan-device(md)) {
+    &__copyright {
+      float: left;
+      border-right: none;
+    }
+  }
+
 }

@@ -1,5 +1,10 @@
 <section class="pan-layout-footer">
   <div class="pan-layout-footer-right">
-    <div>Theme developed by <a target="_blank" href="https://github.com/christianezeani">Christian Ezeani</a>.</div>
+    <div>
+      {% if site.footer %}
+      <span class="pan-layout-footer__copyright">{{ site.footer.copyright_text }}</span>
+      {% endif %}
+      <span>Theme developed by <a target="_blank" href="https://github.com/christianezeani">Christian Ezeani</a>.</span>
+    </div>
   </div>
 </section>

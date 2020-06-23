@@ -64,6 +64,16 @@ left_side:
   text_color: [CSS background color, e.g. "#F00". We strongly recommend quoting this value.]
 ```
 
+#### Example
+
+```yml
+left_side:
+  background_image: "./assets/images/left-background.jpg"
+  background_color: "#F00"
+  close_button_color: "#F00"
+  text_color: "#F00"
+```
+
 To configure side menu, set the following variables:
 
 ```yml
@@ -106,6 +116,20 @@ social_icons:
   - name: github
     link: https://github.com/christianezeani
     icon: fab fa-github-square
+```
+
+To configure footer, set the following variables:
+
+```yml
+footer:
+  copyright_text: [The copyright text. Value should be quoted]
+```
+
+#### Example
+
+```yml
+footer:
+  copyright_text: "&copy; Christian Ezeani"
 ```
 
 panthera-jekyll currently supports the following icons:

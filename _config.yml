@@ -15,6 +15,9 @@ subtitle: Full-Stack Developer
 #   close_button_color: "#F00"
 #   text_color: "#F00"
 
+footer:
+  copyright_text: "&copy; Christian Ezeani"
+
 # Side Menu Links
 menu:
   - text: Portfolio
