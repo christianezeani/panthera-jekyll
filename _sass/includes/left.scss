@@ -105,17 +105,23 @@
     right: 0px;
     height: 200px;
 
-    img {
+    a {
       display: block;
-      margin: 0px auto;
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-
       position: relative;
       top: 50%;
       transform: translateY(-50%);
+      width: 150px;
+      height: 150px;
+      margin: 0px auto;
+
+      > img {
+        display: block;
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 50%;
+      }
     }
+
   }
 
   &__info {
