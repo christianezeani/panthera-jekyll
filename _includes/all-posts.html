@@ -13,14 +13,16 @@
     </div>
     <div class="pan-post-list--right">
       <div class="pan-post-list--content">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="info">
-          <span>{{ post.date | date: '%Y, %b %d' }}</span>
-          &nbsp;&nbsp; - &nbsp;&nbsp;
-          <span>{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-        </p>
-        <p class="desc">{{ post.content | strip_html | truncatewords: 20 }}</p>
-      </div>
+        <div class="pan-post-list--body">
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="info">
+            <span>{{ post.date | date: '%Y, %b %d' }}</span>
+            &nbsp;&nbsp; - &nbsp;&nbsp;
+            <span>{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+          </p>
+          <p class="desc">{{ post.content | strip_html | truncatewords: 20 }}</p>
+        </div>
+        </div>
     </div>
   </div>
   {% endfor %}

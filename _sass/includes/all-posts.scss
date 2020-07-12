@@ -12,11 +12,11 @@
 
   --content-top: 0px;
   --content-transform: none;
-  --content-height: auto;
+  --content-height: 100px;
   --content-margin: -30px auto 0px auto;
   --content-shadow: -2px 4px 8px rgba(0, 0, 0, .2);
   
-  @media (min-width: pan-device(md)) {
+  @media (min-width: pan-device(lg)) {
     --display: flex;
 
     --left-width: 300px;
@@ -28,7 +28,6 @@
     --content-top: 50%;
     --content-transform: translateY(-50%);
     --content-margin: 0px 0px 0px -30px;
-    --content-height: 140px;
   }
 
   &__item {
@@ -78,9 +77,13 @@
     border-radius: var(--border-radius) !important;
     box-shadow: var(--content-shadow) !important;
     margin: var(--content-margin) !important;
-    height: var(--content-height) !important;
     transition: all 0.5s ease-in-out 0s;
     padding: 20px;
+  }
+
+  &--body {
+    overflow: hidden;
+    min-height: var(--content-height) !important;
   }
 
   h2 {
