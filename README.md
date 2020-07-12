@@ -155,6 +155,67 @@ If you'd like to add your own custom styles:
 
 *Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
+## Blog Posts
+
+### Creating Posts
+
+To create a post, add a file to your `_posts` directory with the following format:
+
+```
+YEAR-MONTH-DAY-title.MARKUP
+```
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. For example, the following are examples of valid post filenames:
+
+```
+2020-07-10-new-years-eve-is-awesome.md
+```
+
+```md
+---
+layout: post
+title: First Demo Post
+date: 2020-07-10 13:32:20 +0300
+description: Post description (optional)
+image: image.jpg (optional)
+tags: [Holidays, Hawaii]
+---
+
+Post content here
+```
+
+### Displaying an index of posts
+
+1. Create a page, e.g. `posts.md`, with the following content:
+
+```md
+---
+layout: post
+---
+
+# PAGE TITLE HERE
+
+{% include all-posts.html %}
+```
+
+2. Add a link to the left pane in your `_config.yml`
+
+```yml
+menu:
+  ...
+  - text: Blog Posts
+    link: /posts
+    icon: ""
+```
+
+...and you're good
+
+More post features are coming soon. To get updates on new features, hit the `Watch` button at the top of this page to get notifications.
+
+If you love this project, kindly hit the `Star` button at the top of this page.
+
+Follow me on [Github](//github.com/christianezeani) to see more of my projects.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/chrisitanezeani/panthera-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://contributor-covenant.org) code of conduct.
