@@ -2,4 +2,4 @@
 layout: default
 ---
 
-# Coming Soon...
+# HOME
