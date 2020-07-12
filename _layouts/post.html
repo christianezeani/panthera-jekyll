@@ -5,7 +5,7 @@ layout: default
 <section class="post-view">
   {% if page.image %}
   <div class="post-view__image">
-    <img src="{{ '/' | relative_url | append: post.image }}" alt="{{ page.title }}">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
   </div>
   {% endif %}
 

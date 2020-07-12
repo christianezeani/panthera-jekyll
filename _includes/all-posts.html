@@ -5,7 +5,7 @@
     <div class="pan-post-list--left">
       <div class="pan-post-list--image">
         {% if post.image %}
-        <a href="{{ post.url | relative_url }}" style="background-image: url({{ '/' | relative_url | append: post.image }});"></a>
+        <a href="{{ post.url | relative_url }}" style="background-image: url({{ post.image | relative_url }});"></a>
         {% else %}
         <a href="{{ post.url | relative_url }}"></a>
         {% endif %}
