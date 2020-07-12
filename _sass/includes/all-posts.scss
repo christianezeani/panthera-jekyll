@@ -1,0 +1,99 @@
+.pan-post-list {
+  --display: block;
+
+  --left-width: auto;
+  --left-height: 150px;
+
+  --right-width: auto;
+  --right-height: auto;
+  --right-padding: 0px 20px;
+
+  --border-radius: 5px;
+
+  --content-top: 0px;
+  --content-transform: none;
+  --content-height: auto;
+  --content-margin: -30px auto 0px auto;
+  --content-shadow: -2px 4px 8px rgba(0, 0, 0, .2);
+  
+  @media (min-width: pan-device(md)) {
+    --display: flex;
+
+    --left-width: 300px;
+    --left-height: auto;
+
+    --right-width: auto;
+    --right-padding: 20px 0px;
+
+    --content-top: 50%;
+    --content-transform: translateY(-50%);
+    --content-margin: 0px 0px 0px -30px;
+    --content-height: 140px;
+  }
+
+  &__item {
+    display: var(--display) !important;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+    &:hover {
+      --content-shadow: -3px 5px 12px rgba(0, 0, 0, .4);
+    }
+  }
+
+  &--left {
+    width: var(--left-width) !important;
+    height: var(--left-height) !important;
+  }
+
+  &--right {
+    flex: 1;
+    padding: var(--right-padding) !important;
+    width: var(--right-width) !important;
+  }
+
+  &--image {
+    overflow: hidden;
+    border: 1px solid #DDD;
+    border-radius: var(--border-radius) !important;
+    width: 100% !important;
+    height: 100% !important;
+
+    > a {
+      display: block;
+      min-width: 100%;
+      min-height: 100%;
+      background-image: url(../images/post.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  &--content {
+    position: relative;
+    top: var(--content-top) !important;
+    transform: var(--content-transform) !important;
+    background-color: #FFF;
+    border-radius: var(--border-radius) !important;
+    box-shadow: var(--content-shadow) !important;
+    margin: var(--content-margin) !important;
+    height: var(--content-height) !important;
+    transition: all 0.5s ease-in-out 0s;
+    padding: 20px;
+  }
+
+  h2 {
+    margin: 0px 0px 5px 0px;
+  }
+
+  .info {
+    font-size: 12px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .desc {
+    font-size: 15px;
+    margin: 0px;
+  }
+}

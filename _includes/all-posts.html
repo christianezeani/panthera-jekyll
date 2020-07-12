@@ -1,0 +1,29 @@
+
+<section class="pan-post-list">
+  {% for post in site.posts %}
+  <div class="pan-post-list__item">
+    <div class="pan-post-list--left">
+      <div class="pan-post-list--image">
+        {% if post.image %}
+        <a href="{{ post.url | prepend: site.baseurl }}" style="background-image: url({{ '/' | prepend: site.baseurl | append: post.image }});"></a>
+        {% else %}
+        <a href="{{ post.url | prepend: site.baseurl }}"></a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="pan-post-list--right">
+      <div class="pan-post-list--content">
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="info">
+          <span>{{ post.date | date: '%Y, %b %d' }}</span>
+          &nbsp;&nbsp; - &nbsp;&nbsp;
+          <span>{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+        </p>
+        <p class="desc">{{ post.content | strip_html | truncatewords: 20 }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+{% include pagination.html %}

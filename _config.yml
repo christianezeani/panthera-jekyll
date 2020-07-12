@@ -36,6 +36,10 @@ menu:
     link: /resume
     icon: ""
 
+  - text: Blog Posts
+    link: /posts
+    icon: ""
+
 # Socialmedia Icons
 social_icons:
   - name: linkedin

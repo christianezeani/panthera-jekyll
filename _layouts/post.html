@@ -2,4 +2,23 @@
 layout: default
 ---
 
-{{ content }}
+<section class="post-view">
+  <div class="post-view__image">
+    {% if page.image %}
+    <img src="{{ '/' | prepend: site.baseurl | append: post.image }}" alt="{{ page.title }}">
+    {% else %}
+    <img src="{{ '/assets/images/post.jpg' | prepend: site.baseurl }}" alt="{{ page.title }}">
+    {% endif %}
+  </div>
+
+  <div class="post-view__header">
+    <h1>{{ page.title }}</h1>
+    <div class="post-view__info">
+      <span><strong>Date:</strong> {{ page.date | date: '%Y, %b %d' }}</span>
+    </div>
+  </div>
+  
+  <div class="post-view__body">
+    {{ content }}
+  </div>
+</section>
