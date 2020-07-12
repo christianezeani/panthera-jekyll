@@ -177,7 +177,7 @@ layout: post
 title: First Demo Post
 date: 2020-07-10 13:32:20 +0300
 description: Post description (optional)
-image: image.jpg (optional)
+image: /image.jpg (optional)
 tags: [Holidays, Hawaii]
 ---
 
