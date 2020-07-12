@@ -1,0 +1,52 @@
+remote_theme: christianezeani/panthera-jekyll
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+title: Christian Ezeani
+subtitle: Full-Stack Developer
+
+# left_side:
+#   background_image: "./assets/images/left-background.jpg"
+#   background_color: "#F00"
+#   close_button_color: "#F00"
+#   text_color: "#F00"
+
+footer:
+  copyright_text: "&copy; Christian Ezeani"
+
+# Side Menu Links
+menu:
+  - text: Home
+    link: /
+    icon: ""
+
+  - text: Blog Posts
+    link: /posts
+    icon: ""
+
+# Socialmedia Icons
+social_icons:
+  - name: linkedin
+    link: https://www.linkedin.com/christianezeani
+    icon: fab fa-linkedin
+
+  - name: github
+    link: https://github.com/christianezeani
+    icon: fab fa-github-square
+
+  - name: facebook
+    link: https://www.facebook.com/christian.ezeani.cyb
+    icon: fab fa-facebook-square
+
+  - name: twitter
+    link: https://www.twitter.com/christianezeani
+    icon: fab fa-twitter
+
+
+    
