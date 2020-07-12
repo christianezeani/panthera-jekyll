@@ -5,15 +5,15 @@
     <div class="pan-post-list--left">
       <div class="pan-post-list--image">
         {% if post.image %}
-        <a href="{{ post.url | prepend: site.baseurl }}" style="background-image: url({{ '/' | prepend: site.baseurl | append: post.image }});"></a>
+        <a href="{{ post.url | relative_url }}" style="background-image: url({{ '/' | relative_url | append: post.image }});"></a>
         {% else %}
-        <a href="{{ post.url | prepend: site.baseurl }}"></a>
+        <a href="{{ post.url | relative_url }}"></a>
         {% endif %}
       </div>
     </div>
     <div class="pan-post-list--right">
       <div class="pan-post-list--content">
-        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <p class="info">
           <span>{{ post.date | date: '%Y, %b %d' }}</span>
           &nbsp;&nbsp; - &nbsp;&nbsp;

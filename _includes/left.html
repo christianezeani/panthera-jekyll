@@ -20,9 +20,13 @@
 
   <div class="pan-layout-left__top">
     <div class="pan-layout-left__avatar">
-      {% if site.github.owner_gravatar_url %}
+      {% if site.avatar %}
       <a href="{{ site.baseurl }}">
-        <img src="{{ site.avatar | default: site.github.owner_gravatar_url }}" alt="{{ site.title | default: site.github.owner_name }}">
+        <img src="{{ site.avatar }}" alt="{{ site.title | default: site.github.owner_name }}">
+      </a>
+      {% else if site.github.owner_gravatar_url %}
+      <a href="{{ site.baseurl }}">
+        <img src="{{ site.github.owner_gravatar_url }}" alt="{{ site.title | default: site.github.owner_name }}">
       </a>
       {% else %}
       <a href="{{ site.baseurl }}">
