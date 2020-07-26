@@ -1,0 +1,68 @@
+<div class="pan-related-posts">
+  <h3 class="pan-related-posts__header">Related Posts</h3>
+
+  {% if site.data.post.related.max %}
+    {% assign maxRelated = site.data.post.related.max %}
+  {% else %}
+    {% assign maxRelated = 12 %}
+  {% endif %}
+
+  {% assign minCommonTags =  1 %}
+  {% assign maxRelatedCounter = 0 %}
+  {% assign allRelatedPosts = '' | split: ',' %}
+
+  {% capture noRelatedPosts %}
+  <div class="pan-related-posts__none">
+    <span>No related post found</span>
+  </div>
+  {% endcapture %}
+
+  {% if site.posts.size < 1 %}
+    {{ noRelatedPosts }}
+  {% else %}
+    {% for post in site.posts %}
+      {% assign sameTagCount = 0 %}
+      {% assign commonTags = '' %}
+
+      {% for tag in post.tags %}
+        {% if post.url != page.url %}
+          {% if page.tags contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+            {% assign commonTags = commonTags | append: tagmarkup %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if sameTagCount >= minCommonTags %}
+        {% assign allRelatedPosts = allRelatedPosts | push: post %}
+        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+        {% if maxRelatedCounter >= maxRelated %}
+          {% break %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if allRelatedPosts.size < 1 %}
+      {{ noRelatedPosts }}
+    {% else %}
+      <div class="pan-related-posts__container">
+        {% for post in allRelatedPosts %}
+          <div class="pan-related-posts__item">
+            <div class="pan-related-posts__body">
+              {% if post.image %}
+                <div class="pan-related-posts--image" style="background-image: url({{ post.image | relative_url }});"></div>
+              {% else %}
+                <div class="pan-related-posts--image"></div>
+              {% endif %}
+              <h4>
+                <a href="{{ post.url | relative_url }}">{{ post.title | truncate: 50, '...' }}</a>
+              </h4>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
+
+</div>

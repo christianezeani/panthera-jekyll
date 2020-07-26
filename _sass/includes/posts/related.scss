@@ -1,0 +1,64 @@
+.pan-related-posts {
+  --border: 1px solid #DDD;
+  // ==================
+
+  &__header {
+    padding: 10px 0px;
+    margin: 0px 0px 15px 0px;
+    border-top: var(--border) !important;
+    border-bottom: var(--border) !important;
+  }
+
+  &__none {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px -10px;
+  }
+
+  &__item {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    flex: 0 0 100%;
+
+    @media (min-width: pan-device(sm)) {
+      width: 50%;
+      flex: 0 0 50%;
+    }
+
+    @media (min-width: pan-device(lg)) {
+      width: 33.333%;
+      flex: 0 0 33.333%;
+    }
+
+    @media (min-width: pan-device(xl)) {
+      width: 25%;
+      flex: 0 0 25%;
+    }
+  }
+
+  &__body {
+    padding: 10px;
+    border: var(--border) !important;
+
+    > h4 {
+      margin: 0px;
+    }
+  }
+
+  &--image {
+    height: 130px;
+    margin: -10px -10px 10px -10px;
+    background-image: url(../images/post.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

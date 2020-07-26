@@ -6,6 +6,9 @@ defaults:
     values:
       layout: default
 
+paginate: 10
+paginate_path: "/blog/page:num/"
+
 title: Christian Ezeani
 subtitle: Full-Stack Developer
 
@@ -37,7 +40,7 @@ menu:
     icon: ""
 
   - text: Blog Posts
-    link: /posts
+    link: /blog
     icon: ""
 
 # Socialmedia Icons

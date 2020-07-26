@@ -3,4 +3,4 @@
 
 # BLOG POSTS
 
-{% include all-posts.html %}
+{% include posts/index.html %}

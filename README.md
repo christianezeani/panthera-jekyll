@@ -4,7 +4,7 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
 <!-- [![Jekyll Themes Shield](https://img.shields.io/badge/featured%20on-JT-red.svg)](https://jekyll-themes.com) -->
 
-*panthera-jekyll is a Jekyll theme for GitHub Pages and Jekyll sites. You can [preview the theme to see what it looks like](https://demothemes.github.io/panthera-jekyll), or even [use it today](#usage).*
+*panthera-jekyll is a Jekyll theme for GitHub Pages and Jekyll sites. You can [preview the theme to see what it looks like](https://demothemes.github.io/panthera-jekyll), or even [use it today](#installation).*
 
 <div style="text-align: center;">
   <img src="/screenshot.png" alt="panthera-jekyll" style="width: 100%; max-width: 750px;" />
@@ -195,7 +195,7 @@ layout: post
 
 # PAGE TITLE HERE
 
-{% include all-posts.html %}
+{% include posts/index.html %}
 ```
 
 2. Add a link to the left pane in your `_config.yml`

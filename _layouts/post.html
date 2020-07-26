@@ -15,8 +15,14 @@ layout: default
       <span><strong>Date:</strong> {{ page.date | date: '%Y, %b %d' }}</span>
     </div>
   </div>
+
+  {% include addons/share.html %}
   
   <div class="post-view__body">
     {{ content }}
   </div>
+
+  {% include addons/share.html %}
+
+  {% include posts/related.html %}
 </section>

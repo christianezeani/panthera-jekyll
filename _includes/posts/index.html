@@ -1,6 +1,11 @@
+{% if paginator.posts.size %}
+  {% assign all_posts = paginator.posts %}
+{% else %}
+  {% assign all_posts = site.posts %}
+{% endif %}
 
 <section class="pan-post-list">
-  {% for post in site.posts %}
+  {% for post in all_posts %}
   <div class="pan-post-list__item">
     <div class="pan-post-list--left">
       <div class="pan-post-list--image">
@@ -28,4 +33,6 @@
   {% endfor %}
 </section>
 
-{% include pagination.html %}
+{% if paginator.posts.size %}
+  {% include posts/pagination.html %}
+{% endif %}
