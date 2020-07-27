@@ -1,0 +1,9 @@
+{% if site.data.comments.enabled == true %}
+  <div class="pan-comments"></div>
+    {% case site.data.comments.type %}
+      {% when 'disqus' %}
+        {% include addons/comments/disqus.html %}
+      {% else %}
+    {% endcase %}
+  </div>
+{% endif %}

@@ -41,6 +41,16 @@
   <script type="text/javascript" src="{{ '/assets/libs/jquery-3.4.1.min.js' | relative_url }}"></script>
   <script type="text/javascript" src="{{ '/assets/libs/jquery-migrate-3.0.1.min.js' | relative_url }}"></script>
   <script type="text/javascript" src="{{ '/assets/js/panthera-jekyll.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+
+  {% if site.data.comments.enabled == true %}
+    {% case site.data.comments.type %}
+      {% when 'disqus' %}
+        {% if site.data.comments.disqus.name %}
+          <script id="dsq-count-scr" src="//{{ site.data.comments.disqus.name }}.disqus.com/count.js" async></script>
+        {% endif %}
+      {% else %}
+    {% endcase %}
+  {% endif %}
  
 </body>
 </html>
