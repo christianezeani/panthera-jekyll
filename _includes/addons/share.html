@@ -1,0 +1,69 @@
+{% assign iconsBaseUrl = '/assets/icons/' | relative_url %}
+
+{% assign title = page.title | url_encode %}
+{% assign description = page.content | strip_html | truncatewords: 10, '' | url_encode %}
+{% assign url = page.url | relative_url | prepend: site.url %}
+
+{% if page.image %}
+  {% assign image = page.image | relative_url | prepend: site.url %}
+{% endif %}
+
+{% capture twitterShareUrl %}https://twitter.com/intent/tweet?url={{ url }}&text={{ description }}{% endcapture %}
+{% capture facebookShareUrl %}https://www.facebook.com/sharer/sharer.php?u={{ url }}{% endcapture %}
+{% capture linkedinShareUrl %}https://www.linkedin.com/sharing/share-offsite/?url={{ url }}{% endcapture %}
+{% capture stumbleuponShareUrl %}https://mix.com/add?url={{ url }}{% endcapture %}
+{% capture deliciousShareUrl %}https://del.icio.us/post?url={{ url }}&title={{ title }}{% endcapture %}
+{% capture diggShareUrl %}http://www.digg.com/submit?url={{ url }}{% endcapture %}
+{% capture redditShareUrl %}https://www.reddit.com/submit?url={{ url }}&title={{ title }}{% endcapture %}
+{% capture pinterestShareUrl %}https://www.pinterest.com/pin/create/button/?url={{ url }}&title={{ title }}&description={{ description }}{% if image %}&media={{ image }}{% endif %}{% endcapture %}
+
+{% if page.sharing %}
+  {% assign sharing = page.sharing %}
+{% else %}
+  {% assign sharing = site.data.sharing %}
+{% endif %}
+
+{% if sharing.text %}
+  {% assign h3Text = sharing.text %}
+{% else %}
+  {% assign h3Text = 'Share on:' %}
+{% endif %}
+
+{% if sharing.align %}
+  {% assign align = sharing.align %}
+{% else %}
+  {% assign align = 'left' %}
+{% endif %}
+
+{% capture alignClass %} --{{ align }}{% endcapture %}
+
+<div class="pan-sharing{{ alignClass }}">
+  <h3 class="pan-sharing__title">{{ h3Text }}</h3>
+
+  <div class="pan-sharing__icons">
+    <a target="_blank" href="{{ twitterShareUrl }}">
+      <img src="{{ iconsBaseUrl | append: 'twitter.png' }}" title="Twitter" alt="Twitter">
+    </a>
+    <a target="_blank" href="{{ facebookShareUrl }}">
+      <img src="{{ iconsBaseUrl | append: 'facebook.png' }}" title="Facebook" alt="Facebook">
+    </a>
+    <a target="_blank" href="{{ linkedinShareUrl }}">
+      <img src="{{ iconsBaseUrl | append: 'linkedin.png' }}" title="LinkedIn" alt="LinkedIn">
+    </a>
+    <a target="_blank" href="{{ stumbleuponShareUrl }}">
+      <img src="{{ iconsBaseUrl | append: 'stumbleupon.png' }}" title="StumbleUpon" alt="StumbleUpon">
+    </a>
+    <a target="_blank" href="{{ deliciousShareUrl }}">
+      <img src="{{ iconsBaseUrl | append: 'delicious.png' }}" title="Delicious" alt="Delicious">
+    </a>
+    <a target="_blank" href="{{ diggShareUrl }}">
+      <img src="{{ iconsBaseUrl | append: 'digg.png' }}" title="Digg" alt="Digg">
+    </a>
+    <a target="_blank" href="{{ redditShareUrl }}">
+      <img src="{{ iconsBaseUrl | append: 'reddit.png' }}" title="Reddit" alt="Reddit">
+    </a>
+    <a target="_blank" href="{{ pinterestShareUrl }}">
+      <img src="{{ iconsBaseUrl | append: 'pinterest.png' }}" title="Pinterest" alt="Pinterest">
+    </a>
+  </div>
+</div>

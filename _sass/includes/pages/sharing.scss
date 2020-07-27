@@ -1,0 +1,42 @@
+.pan-sharing {
+  --height: 25px;
+  // ================
+
+  margin: 0px -10px 20px -10px;
+
+  &.--left { text-align: left; }
+  &.--center { text-align: center; }
+  &.--right { text-align: right; }
+
+  &__title {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px 10px;
+    vertical-align: middle;
+    line-height: var(--height) !important;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  &__icons {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0px 10px;
+
+    > a {
+      display: inline-block;
+      margin-left: 7px;
+
+      &:first-child {
+        margin-left: 0px;
+      }
+
+      > img {
+        display: block;
+        height: var(--height) !important;
+      }
+    }
+  }
+}

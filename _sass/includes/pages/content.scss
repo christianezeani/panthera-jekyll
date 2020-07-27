@@ -1,0 +1,17 @@
+.pan-layout-content {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: var(--pan-layout-header-height);
+  bottom: var(--pan-layout-footer-height);
+  background-color: #FFF;
+  padding: 20px;
+  overflow: auto;
+  overflow-x: hidden;
+
+  h1 {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #F0F0F0;
+  }
+}

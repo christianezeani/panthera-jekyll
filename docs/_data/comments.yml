@@ -1,0 +1,7 @@
+
+enabled: true
+type: disqus
+
+disqus:
+  name: panthera-jekyll
+
