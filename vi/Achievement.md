@@ -17,7 +17,6 @@ order: 3
 
 * Trong nhóm xử lý ngôn ngữ tự nhiên ở trường UET-VNU, có được các thành tích sau.
     * Đóng góp trong việc xây dựng một trang web giới thiệu nhóm nghiên cứu NLP-UET-VNU.  
-      [*Đường dẫn tới trang giới thiệu nhóm nghiên cứu NLP-UET-VNU*](https://uetnlp.github.io/){:target="_blank"}
     * Hỗ trợ nhóm khai thác và xử lý dữ liệu có sẵn trong các websites để xây dựng các tệp dữ liệu song ngữ Nhật-Việt.
     * Xây dựng website dùng nền tảng Flask với ngôn ngữ lập trình Python. Úng dụng tận dụng mô hình dịch máy được phát triển bởi nhóm NLP-UET-VNU để dịch văn bản và dịch tài liệu, tập trung cho cặp ngôn ngữ Nhật-Việt, hỗ trợ cặp Anh-Việt.
     <!-- [Link report - guidances of the app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
