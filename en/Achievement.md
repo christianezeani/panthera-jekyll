@@ -28,7 +28,7 @@ order: 1
         * Conduct research on previous popular publications to find out ideas for paper *"Cross-lingual Semantic Similarity via Cross-Lingual Embeddings"* published in *2018 11th Fundamental and Applied IT Research Conference (Fair 2018)*.
         
     * Support technical aspects for editors from University of Languages & International Studies (ULIS-VNU) and University of Engineering and Technology (UET-VNU) to create Vietnamese-Japanese bilingual datasets.
-    * Support to write technical reports for a project invested by The Ministry of Science and Technology of Vietnam.
+    * Support to write technical reports.
     * Attended the seminars discussing on deep learning and the lastest problems in NLP in NLP-UET-VNU team.
     * Attended paper representations in International Conference of the Pacific Association for Computational Linguistics (PACLING 2019). 
     
