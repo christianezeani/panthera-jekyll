@@ -17,10 +17,8 @@ order: 1
 
 * Dans l'équipe de traitement du langage naturel de l'UET-VNU, a obtenu les résultats suivants. 
     * Contribue à la construction du site Web d'introduction pour l'équipe de recherche NLP-UET-VNU.  
-      [*Lien vers l'introduction du site de l'équipe de recherche NLP-UET-VNU*](https://uetnlp.github.io/fr/Introduction/){:target="_blank"} 
     * Aide l'équipe à explorer et prétraiter les données des sites Web pour construire des ensembles de données bilingues vietnamien-japonais.
     * Construire un site web en utilisant le framework Flask avec une programmation Python. Il utilise un modèle de traduction dévéloppé par l'équipe NLP-UET-VNU pour traduire des phrases et des documents en se concentrant sur la paire de langues vietnamien-japonais et en supportant le vietnamien-anglais. 
-    <!--[Link app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     <!--[Lien de rapport du app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     * Contribuer fortement à la construction d'une Chrome extension pour traduire une page de l'anglais au vietnamien.
     * Suis l'un des auteurs des articles suivants. 
