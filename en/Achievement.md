@@ -36,11 +36,11 @@ order: 1
 ![](/Certificates/Tezos.jpg "Certificate Blockchain Tezos.")
  
 #### 2017-2018
-* Worked in a team of three people in a project about Automated Testing using C#. Afterward, based on this project, I achieved the 2nd prize in the Scientific Research Conference at the Faculty Information Technology UET-VNU with a certificate.
+* Worked in a team of three people in a project about Automated Testing using C#.
 ![](/Certificates/Csharp.jpg "Certificate in the Scientific Research Conference at the Faculty Information Technology UET-VNU.")
 
 #### 2016-2017
-* Completed a course about Android application development of ITPlus with a certificate. Afterward, I completed an internship during four months about Android application development in a company.
+* Completed a course about Android application development of ITPlus with a certificate.
 ![](/Certificates/android.jpg "Certificate Android application development of ITPlus.")
 
 #### 2014-2015
