@@ -17,10 +17,8 @@ order: 1
 
 * In the Natural Language Processing team in UET-VNU, got the following achievements. 
     * Contribute to build the introduction website for the research team NLP-UET-VNU.  
-      [*Link to introduction NLP-UET-VNU research team site*](https://uetnlp.github.io/en/Introduction/){:target="_blank"} 
     * Support the team to crawl and preprocess data from websites for building Vietnamese-Japanese bilingual datasets.
     * Build a website using Flask framework with Python programming. This worked by using a translation model developped by NLP-UET-VNU team to translate sentences and translate documents focusing on the language pair Vietnamese-Japanese and support Vietnamese-English. 
-    <!-- [Link report - guidances of the app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     * Highly contribute to build an Chrome extension to translate a page from English to Vietnamese and add Vietnamese subtitles.
     * Be one of the authors of the following papers. 
         * Study and experiment previous well-known publications to make valuable comparisons which highlight improvements for paper *"Antonyms-Synonyms Discrimination Based On Exploiting Rich Vietnamese Features"* published in *2019 16th International Conference of the Pacific Association for Computational Linguistics (PACLING 2019)*.
