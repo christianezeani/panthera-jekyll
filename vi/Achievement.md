@@ -13,7 +13,6 @@ order: 3
 * Luận văn tốt nghiệp tập trung vào việc xác định các cặp từ trái nghĩa tiếng Việt từ các quan hệ ngữ nghĩa khác.
 
 * Tái cấu trúc mã nguồn và phát triển một ứng dụng web giúp những người biên tập chỉnh sửa những câu, từ song ngữ tiếng Việt-Nhật. Nhờ vào ứng dụng này, người biên tập đã làm việc hiệu quả.
-    * [*Đường dẫn tới ứng dụng soạn thảo*](http://ngulieu.dichmay.vn:8888/){:target="_blank"} 
     * [*Đường dẫn tới báo cáo thục tập - hướng dẫn sử dụng ứng dụng soạn thảo*](https://drive.google.com/file/d/1Y7XfaogJ1cKG2XfF1Vd-J0flC6VfjQtS/view?usp=sharing){:target="_blank"}
 
 * Trong nhóm xử lý ngôn ngữ tự nhiên ở trường UET-VNU, có được các thành tích sau.
@@ -21,7 +20,6 @@ order: 3
       [*Đường dẫn tới trang giới thiệu nhóm nghiên cứu NLP-UET-VNU*](https://uetnlp.github.io/){:target="_blank"}
     * Hỗ trợ nhóm khai thác và xử lý dữ liệu có sẵn trong các websites để xây dựng các tệp dữ liệu song ngữ Nhật-Việt.
     * Xây dựng website dùng nền tảng Flask với ngôn ngữ lập trình Python. Úng dụng tận dụng mô hình dịch máy được phát triển bởi nhóm NLP-UET-VNU để dịch văn bản và dịch tài liệu, tập trung cho cặp ngôn ngữ Nhật-Việt, hỗ trợ cặp Anh-Việt.
-    <!-- [Link app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     <!-- [Link report - guidances of the app](https://nmtuet.ddnsfree.com/login_interface/){:target="_blank"} -->
     * Đóng góp nhiều trong việc xây dựng một ứng dụng "Chrome extension" để dịch một trang từ Tiếng Anh sang Tiếng Việt hoặc thêm phụ đề tiếng Việt cho các videos.
     * Là một trong số các tác giả của các bài báo sau.
@@ -37,11 +35,11 @@ order: 3
 ![](/Certificates/Tezos.jpg "Chứng chỉ blockchain Tezos.")
 
 #### 2017-2018
-* Đã làm việc trong nhóm 3 người trong một dự án về kiểm thử tự động dùng C#, đạt được giải nhì trong cuộc thi sinh viên nghiên cứu khoa học của khoa CNTT FIT-UET-VNU với một chứng chỉ.
+* Đã làm việc trong nhóm 3 người trong một dự án về kiểm thử tự động dùng C#.
 ![](/Certificates/Csharp.jpg "Chứng chỉ trong cuộc thi sinh viên nghiên cứu khoa học của khoa CNTT UET-VNU.")
 
 #### 2016-2017
-* Đã hoàn thành một khóa đào tạo phát triển ứng dụng Android của ITPlus với một chứng chỉ. Sau đó, hoàn thành một khóa thực tập kéo dài 4 tháng về phát triển ứng dụng Android trong 1 công ty outsource.
+* Đã hoàn thành một khóa đào tạo phát triển ứng dụng Android của ITPlus với một chứng chỉ.
 ![](/Certificates/android.jpg "Chứng chỉ khóa học phát triển ứng dụng Android của ITPlus.")
 
 #### 2014-2015
